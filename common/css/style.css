@@ -80,7 +80,7 @@
 	#top_trouble{background: url(../image/contents/top/trouble_back.jpg) no-repeat center center / cover;}
 	#top_trouble li{background: #fff; color:#D87F54; padding: 10px 15px; border-radius: 50px; border: 2px solid #FFBFA0; font-weight: bold;}
 	#top_trouble li:before { content: "\f058"; font-size: 1.25em; margin-right: 5px;}
-	#top_trouble h3 {font-weight: bold; font-size: 2em;}
+	#top_trouble h3 {font-weight: bold; font-size: 2.8em;}
 	#top_trouble h3 span{color: #D87F54;font-size: 1.25em;}
 	#top_trouble .flex{  align-items: flex-end;}
 	#top_trouble .hl{background: #D87F54; color: #fff; padding: 15px 0; font-size: 2em; font-weight: bold;}

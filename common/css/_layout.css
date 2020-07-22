@@ -87,8 +87,8 @@ body, #base, #body { position:relative; overflow-x:hidden; }
 #head .sp_cal a,#head .sp_tel a{color:#D86027; font-size: 2em; display: block;}
 
 #head .sp_cal,#head .sp_tel{ position: absolute; top: 50%; transform: translate(-50%, -50%); -webkit-transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%);}
-#head .sp_cal{right: 10px;}
-#head .sp_tel{right: 50px;}
+#head .sp_cal{right: 50px;}
+#head .sp_tel{right: 90px;}
 
 #head_navi {}
 #head_navi .center { max-width: 1300px;}
