@@ -12,7 +12,7 @@
 			</div>
 			-->
 
-			<div class="visible-only sp_cal"><a href="mailto:info@ihinseiri-likefamily.com"  class="ov"><i class="fas fa-calculator"></i></a></div>
+			<div class="visible-only sp_cal"><a href="mailto:info@ihinseiri-likefamily.com"  class="ov"><i class="fas fa-envelope"></i></a></div>
 			<div class="visible-only sp_tel"><span data-tel="086-250-7283"><a href="tel:086-250-7283"><i class="fas fa-phone-alt"></i></a></span></div>
 	<!--
 			<div id="btn_open"><a href="javascript:void(0);"><i class="fa fa-bars"></i></a></div>
@@ -28,7 +28,7 @@
 						<img src="/common/image/head/tel.png" alt="電話番号" class="icon">
 						<p class="num"><span data-tel="086-250-7283"><a href="tel:086-250-7283">086-250-7283</a></span>
 						<span class="time">受付時間 9:00〜22:00</span></p>
-						<p class="estimation"><a href="mailto:info@ihinseiri-likefamily.com"  class="ov"><i class="fas fa-calculator"></i>お問い合わせ</a></p>
+						<p class="estimation"><a href="mailto:info@ihinseiri-likefamily.com"  class="ov"><i class="fas fa-envelope"></i>お問い合わせ</a></p>
 					</div>
 				</div>
 			</div>

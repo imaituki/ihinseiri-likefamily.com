@@ -49,8 +49,8 @@ iframe { max-width:100%; }
 	}
 
 a, button, input[type="submit"], input[type="button"] { cursor:pointer; }
-a:link { text-decoration:underline; color:#8B8B8B; }
-a:visited { text-decoration:underline; color:#8B8B8B; }
+a:link { text-decoration:underline; color:#D87F54; }
+a:visited { text-decoration:underline; color:#D87F54; }
 a:hover { text-decoration:none; }
 a:active { text-decoration:none; }
 body.pc .ov { transition: .2s; cursor:pointer; }
@@ -113,9 +113,9 @@ input[name="tel"] { width:200px; }
 .list_pager ul { text-align:center;}
 .list_pager ul li { display:inline;    margin: 0 3px; }
 .list_pager ul li strong,
-.list_pager ul li a { display:inline-block; padding:8px 10px 9px; border:1px solid #F7F7F7; color:#8EC31F; text-decoration:none; line-height:100%;     background: #F7F7F7; }
+.list_pager ul li a { display:inline-block; padding:8px 10px 9px; border:1px solid #D87F54; color:#D87F54#D87F54; text-decoration:none; line-height:100%;     background: #FFF; }
 .list_pager ul li strong,
-.list_pager ul li a:hover { background:#8EC31F; color:#FFF; border:1px solid #8EC31F; }
+.list_pager ul li a:hover { background:#D87F54; color:#FFF; border:1px solid #D87F54; }
 
 /* form */
 .error { display:block; margin:5px 0; padding:5px; background:#F8EAE8; color:#BC2F1C; font-weight:normal; }

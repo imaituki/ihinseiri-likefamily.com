@@ -4,12 +4,9 @@
     <meta charset="utf-8">
     {include file=$template_meta}
 	<link rel="stylesheet" href="/common/css/import.css">
-	<link rel="stylesheet" href="/common/css/style.css">
-	<link rel="stylesheet" href="/common/css/layout.css">
-	<link rel="stylesheet" href="/common/css/base.css">
 	{include file=$template_javascript}
     <script type="text/javascript" src="/common/js/top.js"></script>
-    </head>
+</head>
 <body id="news">
 <div id="base">
 {include file=$template_header}
