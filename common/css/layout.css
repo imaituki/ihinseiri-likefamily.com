@@ -39,6 +39,7 @@ body, #base, #body { position:relative; overflow-x:hidden; }
 #head #head_link .flex{justify-content: flex-end;}
 #head #head_link ul li { display: table-cell; text-align: center; line-height: 100%;     padding: 0px 10px;}
 #head #head_link ul li:not(:first-child) {border-left: 2px solid #D8D8D8;}
+#head #head_link a{color: #8B8B8B;}
 
 #head #head_contact .tel .icon{width: 50px; margin: 0 5px;}
 #head #head_contact .tel .num a{font-size: 1.5em;  color: #2F2F2F;  font-weight: bold;}
@@ -168,7 +169,7 @@ body, #base, #body { position:relative; overflow-x:hidden; }
 
 #foot { position:relative; padding: 30px 0; border-top: 1px solid #E2E2E2; }
 #foot .address_unit{color: #818181;}
-#foot .address_unit a{ text-decoration: none;}
+#foot .address_unit a{ text-decoration: none; color: #818181;}
 #foot .address_unit h5 img {     max-width: 190px; }
 #copyright { font-size:13px; color:#fff; }
 
@@ -208,7 +209,7 @@ body, #base, #body { position:relative; overflow-x:hidden; }
 #page_title .page_title_wrap { position:absolute; top:0; left:0; width:100%; height:100%; }
 #page_title .center { display:table; width:100%; height:100%; }
 #page_title h2 { display:table-cell; text-align:left; vertical-align:middle; font-weight:bold; }
-#page_title h2 span { display:inline-block; line-height:100%; }
+#page_title h2 span { display:inline-block; line-height:100%; color: #D86027;}
 #page_title h2 .sub { font-weight:normal; }
 #page_title .c0 .sub { border-left:1px solid #106b6c; }
 #page_title .cg2 .sub { border-left:1px solid #51a243; }
@@ -216,16 +217,12 @@ body, #base, #body { position:relative; overflow-x:hidden; }
 		#page_title .img_back { min-height: 130px; background-position:right top; }
 		#page_title h2 { text-shadow:2px 2px 0 #fff; }
 		#page_title h2 .main { margin-bottom:10px; }
-		#page_title h2 .sub { display:block; font-size:1em; }
-	}
-	@media (min-width: 576px){
-		#page_title h2 .sub { font-size:1.5em; border-left:1px solid; padding:0 0 0 20px; margin:0 0 0 20px; }
 	}
 	@media (max-width: 767px){
-		#page_title h2 .main { font-size:2em; }
+		#page_title h2 .main { font-size:1.5em; }
 	}
 	@media (min-width: 768px){
-		#page_title h2 .main { font-size:2.25em; }
+		#page_title h2 .main { font-size:2em; }
 	}
 
 

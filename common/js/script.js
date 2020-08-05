@@ -3,6 +3,8 @@ document.write('<script type="text/javascript" src="/common/js/jquery.matchHeigh
 var ua = navigator.userAgent;
 var os, ver = '', browser = '', ie = '', sp = 0;
 var bpx = 768;
+var bpx2 = 576;
+
 
 
 //アンカー対応
@@ -12,10 +14,12 @@ $(window).on('load', function () {
 		if ($(urlhash).get(0)) {
 			$('#head').addClass('fixed');
 			urlhash_top = $(urlhash).offset().top;
-			if ($(window).innerWidth() >= bpx) {
-				urlhash_top = urlhash_top - 117;
-			} else {
-				urlhash_top = urlhash_top - 99;
+			if ( bpx > $(window).innerWidth()) {
+				if ($(window).innerWidth() >= bpx2) {
+					urlhash_top = urlhash_top - 106;
+				} else {
+					urlhash_top = urlhash_top - 65;
+				}
 			}
 			$('body,html').animate({ scrollTop: urlhash_top }, 500);
 		}
@@ -23,15 +27,15 @@ $(window).on('load', function () {
 });
 //ページ内アンカー対応
 $(document).on('click', 'a[href*="#"]', function () {
-	if ($(window).innerWidth() <= bpx) {
-		urlhash = $(this.hash);
-		if (urlhash != "") {
-			$('#head').addClass('fixed');
-			urlhash_top = $(urlhash).offset().top;
-			if (urlhash == '#top_about') {
-				urlhash_top = urlhash_top - 35;
+	urlhash = $(this.hash);
+	if (urlhash != "") {
+		$('#head').addClass('fixed');
+		urlhash_top = $(urlhash).offset().top;
+	 if ( bpx > $(window).innerWidth()) {
+			if ($(window).innerWidth() >= bpx2) {
+				urlhash_top = urlhash_top - 106;
 			} else {
-				urlhash_top = urlhash_top - 99;
+				urlhash_top = urlhash_top - 65;
 			}
 			$('body,html').animate({ scrollTop: urlhash_top }, 500);
 		}
@@ -217,6 +221,12 @@ $(function () {
 			$(this).parents('.tab').addClass('active');
 		}
 		return false;
+	});
+
+	// toggle
+	$('.faq_box').on('click', function(){
+		$(this).find('dd').slideToggle();
+		$(this).find('dl').toggleClass('open');
 	});
 
 	// table

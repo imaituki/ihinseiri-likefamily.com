@@ -17,9 +17,8 @@
 	<script type="text/javascript" src="/common/js/jquery.js"></script>
 	<script type="text/javascript" src="/common/js/script.js"></script>
     <script type="text/javascript" src="/common/js/top.js"></script>
-	<script type="text/javascript" src="/common/js/lightbox/import.js"></script>
 </head>
-<body id="news">
+<body id="contact">
 <div id="base">
 	<header>
 		<div id="head">
@@ -71,48 +70,33 @@
 <main>
 <div id="body">
 	<div id="page_title">
-		<div class="img_back"><img src="/common/image/contents/news/top.jpg" alt="お知らせ"></div>
+		<div class="img_back"><img src="/common/image/contents/contact/top.jpg" alt="お知らせ"></div>
 		<div class="page_title_wrap">
 			<div class="center">
-				<h2><span class="main">お知らせ</span></h2>
+				<h2><span class="main">お問い合わせ・お見積もり</span></h2>
 			</div>
 		</div>
 	</div>
-	<section>
-		<div id="info_detail" class="wrapper-t center">
-			<div class="box">
-				<div class="box_in">
-					<div class="mb20"><span class="date cg2">2020.01.01</span><span class="tag _c1">お知らせ</span></div>
-					<h2 class="title">ここにお知らせタイトルが入ります。</h2>
-					<div class="pos_ac mb50"><img src="/common/image/contents/null.jpg" alt="お知らせタイトル"></div>
-					<div class="entry mb50">
-						この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等
-					</div>
-					<div class="row">
-						<div class="col-xs-3 col-6 height-1 mb20">
-							<a class="ov" href="/common/image/contents/null.jpg" rel="lightbox">
-								<div class="img_rect"><img src="/common/image/contents/null.jpg" alt="お知らせタイトル"></div></a>
-						</div>
-						<div class="col-xs-3 col-6 height-1 mb20">
-							<a class="ov" href="/common/image/contents/null.jpg" rel="lightbox">
-								<div class="img_rect"><img src="/common/image/contents/null.jpg" alt="お知らせタイトル"></div></a>
-						</div>
-						<div class="col-xs-3 col-6 height-1 mb20">
-							<a class="ov" href="/common/image/contents/null.jpg" rel="lightbox">
-								<div class="img_rect"><img src="/common/image/contents/null.jpg" alt="お知らせタイトル"></div></a>
-						</div>
-						<div class="col-xs-3 col-6 height-1 mb20">
-							<a class="ov" href="/common/image/contents/null.jpg" rel="lightbox">
-								<div class="img_rect"><img src="/common/image/contents/null.jpg" alt="お知らせタイトル"></div></a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="wrapper">
-			<div class="button"><a href="/about/" class="_type1 ov"><i class="fas fa-caret-left"></i>一覧へ戻る</a></div>
-		</div>
-	</section>
+    <section>
+        <div class="wrapper">
+            <div class="center finish">
+                <div class="box">
+                    <h2>お問い合わせが完了しました</h2>
+                    <p class="mb20">ご入力いただいたメールアドレス{if !empty( $arr_post.mail )}({$arr_post.mail}){/if}宛に、確認メールをお送りしておりますのでご確認ください。</p>
+                    <p class="mb20">
+                        しばらくたっても自動送信メールが届かない場合には、主に次の原因が考えられます。<br>
+                        「ご入力いただいたメールアドレスが間違っている」<br>
+                        「迷惑メール対策による受信メールの自動削除設定」<br>
+                        「メールボックスの容量オーバー（特にフリーメール）」<br>
+                        「メールの受信制限や拒否設定（特に携帯メール）」</p>
+                    <p class="mb20">メールアドレスの間違いや、ドメイン指定などの受信設定を今一度ご確認いただき、<br>
+                        送受信できる正しいメールアドレスを、メールまたはお電話にてご連絡くださいますようお願い申し上げます。</p>
+                    <p class="mb50">その他、何かご不明な点等ございましたら、お気軽にお問い合わせください。</p>
+        			<div class="button"><a href="/" class="_type1 ov">トップページに戻る<i class="fas fa-caret-right"></i></a></div>
+    			</div>
+            </div>
+        </div>
+    </section>
 </div>
 </main>
 <footer>

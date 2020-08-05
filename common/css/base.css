@@ -120,7 +120,7 @@ input[name="tel"] { width:200px; }
 /* form */
 .error { display:block; margin:5px 0; padding:5px; background:#F8EAE8; color:#BC2F1C; font-weight:normal; }
 .success { display:block; margin:5px 0; padding:5px; background:#DFF0D8; color:#3C763D; font-weight:normal; }
-.need {  border: 1px solid #D80039; color: #D80039; padding: 0px 5px; border-radius: 5px; }
+.need {   color: #FFF; padding: 3px 8px; background: #DF8052;}
 
 /* admin */
 #alert_preview { z-index:100; padding:15px; color:#FFFFFF; background:#CC3129; text-align:center; }

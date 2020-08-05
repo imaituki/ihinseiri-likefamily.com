@@ -373,56 +373,56 @@
 						</div>
 					</div>
 				</div>
-        <div class="unit mb30">
-          <div class="total mb20">
-            <div class="row no-gutters">
-              <div class="height-1 col-xs-4 disp_tbl2">
-                <div class="disp_td">
-                  <p class="plan">4DK~4LDK</p>
+                <div class="unit mb30">
+                    <div class="total mb20">
+                        <div class="row no-gutters">
+                            <div class="height-1 col-xs-4 disp_tbl2">
+                                <div class="disp_td">
+                                    <p class="plan">4DK~4LDK</p>
+                                </div>
+                            </div>
+                            <div class="height-1 col-xs-8 disp_tbl2">
+                                <div class="disp_td">
+                                    <p class="pos_ac total_yen"><span>目安金額</span>220,000円~</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3 height-1 disp_tbl2 floor">
+                            <div class="disp_td">
+                                <div class="pos_ac"><img src="/common/image/contents/top/floor_4.jpg" alt="4DK~4LDK"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-9 height-1">
+                            <div class="flex_c">
+                                <div class="height-1r_all volume box">
+                                    <h4>お荷物量</h4>
+                                    <div class="pd">
+                                        <p><img src="/common/image/contents/top/truck4.jpg" alt="4tトラック"></p>
+                                        <p>4tトラック</p>
+                                        <p class="yen">160,000円</p>
+                                    </div>
+                                </div>
+                                <div class="plus height-1 disp_tbl2"><div class="disp_td"><i class="fas fa-plus"></i></div></div>
+                                <div class="height-1r_all people box">
+                                    <h4>作業人数/時間</h4>
+                                    <div class="pd">
+                                        <p><img src="/common/image/contents/top/6people.jpg" alt="作業員6人"></p>
+                                        <p>作業員6人</p>
+                                        <p class="yen">60,000円</p>
+                                    </div>
+                                </div>
+                                <div class="plus height-1 disp_tbl2"><div class="disp_td"><i class="fas fa-plus"></i></div></div>
+                                <div class="height-1r_all option disp_tbl2 box">
+                                    <div class="disp_td">
+                                        <p>オプション</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
-              <div class="height-1 col-xs-8 disp_tbl2">
-                <div class="disp_td">
-                  <p class="pos_ac total_yen"><span>目安金額</span>220,000円~</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-3 height-1 disp_tbl2 floor">
-              <div class="disp_td">
-                <div class="pos_ac"><img src="/common/image/contents/top/floor_4.jpg" alt="4DK~4LDK"></div>
-              </div>
-            </div>
-            <div class="col-md-9 height-1">
-              <div class="flex_c">
-                <div class="height-1r_all volume box">
-                  <h4>お荷物量</h4>
-                  <div class="pd">
-                    <p><img src="/common/image/contents/top/truck4.jpg" alt="4tトラック"></p>
-                    <p>4tトラック</p>
-                    <p class="yen">160,000円</p>
-                  </div>
-                </div>
-                <div class="plus height-1 disp_tbl2"><div class="disp_td"><i class="fas fa-plus"></i></div></div>
-                <div class="height-1r_all people box">
-                  <h4>作業人数/時間</h4>
-                  <div class="pd">
-                    <p><img src="/common/image/contents/top/6people.jpg" alt="作業員6人"></p>
-                    <p>作業員6人</p>
-                    <p class="yen">60,000円</p>
-                  </div>
-                </div>
-                <div class="plus height-1 disp_tbl2"><div class="disp_td"><i class="fas fa-plus"></i></div></div>
-                <div class="height-1r_all option disp_tbl2 box">
-                  <div class="disp_td">
-                    <p>オプション</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
       <!--
 				<div class="button mb50"><a href="/price/" class="_type1 ov">料金一覧へ<i class="fas fa-caret-right"></i></a></div>
       -->

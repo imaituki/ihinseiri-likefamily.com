@@ -20,7 +20,7 @@
 
 		</div>
 		<div class="head_wrap center mb20">
-			<div class="site_logo"><img src="/common/image/head/logo.png" alt="ライクファミリー 遺品整理"></div>
+			<div class="site_logo"><a href="/" class="ov"><img src="/common/image/head/logo.png" alt="ライクファミリー 遺品整理"></a></div>
 			<div id="head_contact">
 				<div class="tel">
 					<div class="flex_end">
