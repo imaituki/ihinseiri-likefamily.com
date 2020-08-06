@@ -271,7 +271,17 @@
 @media (max-width: 575px){
 	#price .case{padding: 15px;}
 	#price #top_price .bg_lye._1{padding: 15px;}
+}
 
+/*===================================================================
+	#flow
+===================================================================*/
+#flow .flow .unit{border: 1px solid #D87F54; padding: 30px;}
+#flow .flow .unit .num_hl{display: flex; color: #D87F54; font-weight: bold; align-items: center; font-size: 1.75em; border-bottom: 1px solid #DDDDDD; padding-bottom: 10px;}
+#flow .flow .unit .num_hl span.num{background: #D87F54; color: #fff; margin-right: 10px; width: 40px; text-align: center;}
+#flow .flow .unit a.tel{text-decoration: none; color: #333;}
+@media (max-width: 575px){
+	#flow .flow .img{margin-bottom: 10px;}
 }
 
 /*===================================================================
@@ -325,7 +335,7 @@
 .button i.fa-caret-right {position: absolute; right: 10px;  top: 50%; transform: translate(-50%, -50%); -webkit-transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%);}
 .button i.fa-caret-left {position: absolute; left: 10px; font-size: 20px; top: 50%; transform: translate(-50%, -50%); -webkit-transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%);}
 
-
+.button a._type2{border: 1px solid #D87F54;  padding: 5px 0; display: block; color: #D87F54; text-decoration: none; max-width: 330px; background: #fff; border-radius: 50px; position: relative; margin: 0 auto;}
 
 @media (max-width:767px){
 	.button, a.button {width: 100%;}

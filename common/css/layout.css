@@ -172,7 +172,11 @@ body, #base, #body { position:relative; overflow-x:hidden; }
 #foot .address_unit a{ text-decoration: none; color: #818181;}
 #foot .address_unit h5 img {     max-width: 190px; }
 #copyright { font-size:13px; color:#fff; }
-
+#copyright  a{  color:#fff;  display: block;}
+@media (max-width: 575px){
+	#copyright {padding: 5px 0;}
+	#copyright a{ margin-bottom: 5px;}
+}
 
 #foot .foot_navi li { margin-bottom:10px; }
 #foot .foot_navi li a {text-decoration: none;}

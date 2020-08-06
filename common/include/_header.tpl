@@ -2,36 +2,31 @@
 	<div id="head">
 		<div class="head_wrap center mb20">
 			<p class="text">岡山で遺品整理・生前整理はライクファミリーにお任せください！</p>
-			<!--
 			<div id="head_link">
 				<ul class="flex">
-					<li><a href="/company/">会社案内</a></li>
+					<li><a href="https://sankotsu-likefamily.com/%e4%bc%9a%e7%a4%be%e6%a1%88%e5%86%85/" target="_blank">会社案内</a></li>
 					<li><a href="/news/">お知らせ</a></li>
 					<li><a href="/contact/">お問い合わせ</a></li>
 				</ul>
 			</div>
-			-->
-
-			<div class="visible-only sp_cal"><a href="/estimation/"><i class="fas fa-calculator"></i></a></div>
-			<div class="visible-only sp_tel"><span data-tel="086-250-7283"><a href="tel:086-123-4567"><i class="fas fa-phone-alt"></i></a></span></div>
+			<div class="visible-only sp_cal"><a href="mailto:info@ihinseiri-likefamily.com"  class="ov"><i class="fas fa-envelope"></i></a></div>
+			<div class="visible-only sp_tel"><span data-tel="086-250-7283"><a href="tel:086-250-7283"><i class="fas fa-phone-alt"></i></a></span></div>
 			<div id="btn_open"><a href="javascript:void(0);"><i class="fa fa-bars"></i></a></div>
-
 		</div>
 		<div class="head_wrap center mb20">
-			<div class="site_logo"><img src="/common/image/head/logo.png" alt=""></div>
+			<div class="site_logo"><a href="/" class="ov"><img src="/common/image/head/logo.png" alt="ライクファミリー 遺品整理"></a></div>
 			<div id="head_contact">
 				<div class="tel">
 					<div class="flex_end">
-						<img src="/common/image/head/free.jpg" alt="" class="icon">
-						<img src="/common/image/head/tel.png" alt="" class="icon">
-						<p class="num"><span data-tel="086-250-7283"><a href="tel:086-123-4567">086-123-4567</a></span>
+						<img src="/common/image/head/free.jpg" alt="相談無料" class="icon">
+						<img src="/common/image/head/tel.png" alt="電話番号" class="icon">
+						<p class="num"><span data-tel="086-250-7283"><a href="tel:086-250-7283">086-250-7283</a></span>
 						<span class="time">受付時間 9:00〜22:00</span></p>
-						<p class="estimation"><a href="/estimation/"><i class="fas fa-calculator"></i>無料お見積り</a></p>
+						<p class="estimation"><a href="mailto:info@ihinseiri-likefamily.com"  class="ov"><i class="fas fa-envelope"></i>お問い合わせ</a></p>
 					</div>
 				</div>
 			</div>
 		</div>
-		<!--
 		<div id="head_navi">
 			<div class="center">
 				<ul>
@@ -48,6 +43,5 @@
 				</ul>
 			</div>
 		</div>
-		-->
 	</div>
 </header>
