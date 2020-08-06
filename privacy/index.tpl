@@ -12,7 +12,7 @@
 <main>
 <div id="body">
 	<div id="page_title">
-		<div class="img_back"><img src="/common/image/contents/privacy/top.jpg" alt="お知らせ"></div>
+		<div class="img_back"><img src="/common/image/contents/privacy/top.jpg" alt="プライバシーポリシー"></div>
 		<div class="page_title_wrap">
 			<div class="center">
 				<h2><span class="main">プライバシーポリシー</span></h2>

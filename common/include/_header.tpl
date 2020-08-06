@@ -9,7 +9,7 @@
 					<li><a href="/contact/">お問い合わせ</a></li>
 				</ul>
 			</div>
-			<div class="visible-only sp_cal"><a href="mailto:info@ihinseiri-likefamily.com"  class="ov"><i class="fas fa-envelope"></i></a></div>
+			<div class="visible-only sp_cal"><a href="/contact/"  class="ov"><i class="fas fa-calculator"></i></a></div>
 			<div class="visible-only sp_tel"><span data-tel="086-250-7283"><a href="tel:086-250-7283"><i class="fas fa-phone-alt"></i></a></span></div>
 			<div id="btn_open"><a href="javascript:void(0);"><i class="fa fa-bars"></i></a></div>
 		</div>
@@ -22,7 +22,7 @@
 						<img src="/common/image/head/tel.png" alt="電話番号" class="icon">
 						<p class="num"><span data-tel="086-250-7283"><a href="tel:086-250-7283">086-250-7283</a></span>
 						<span class="time">受付時間 9:00〜22:00</span></p>
-						<p class="estimation"><a href="mailto:info@ihinseiri-likefamily.com"  class="ov"><i class="fas fa-envelope"></i>お問い合わせ</a></p>
+						<p class="estimation"><a href="/contact/"  class="ov"><i class="fas fa-calculator"></i>お問い合わせ</a></p>
 					</div>
 				</div>
 			</div>
@@ -34,10 +34,10 @@
 					<li><a href="/flow/">遺品整理の流れ</a></li>
 					<li><a href="/service/">サービス案内</a></li>
 					<li><a href="/price/">料金案内</a></li>
-					<li><a href="/case/">事例・実績</a></li>
+					{*<li><a href="/case/">事例・実績</a></li>*}
 					<li><a href="/faq/">よくあるご質問</a></li>
-					<li><a href="/voice/">お客様の声</a></li>
-					<li class="pc_none"><a href="/company/">会社案内</a></li>
+					{*<li><a href="/voice/">お客様の声</a></li>*}
+					<li class="pc_none"><a href="https://sankotsu-likefamily.com/%e4%bc%9a%e7%a4%be%e6%a1%88%e5%86%85/" target="_blank">会社案内</a></li>
 					<li class="pc_none"><a href="/news/">お知らせ</a></li>
 					<li class="pc_none last"><a href="/contact/">お問い合わせ</a></li>
 				</ul>
