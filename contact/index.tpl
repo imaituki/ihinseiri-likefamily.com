@@ -56,6 +56,16 @@
 								</td>
 							</tr>
 							<tr class="content1">
+								<th scope="row">建物種別</th>
+								<td>
+									{if !empty( $message.ng.building )}<p class="error">{$message.ng.building}</p>{/if}
+									<select name="building">
+										<option value="">選択してください</option>
+										{html_options options=$OptionBuilding selected=$arr_post.building}
+									</select>
+								</td>
+							</tr>
+							<tr class="content1">
 								<th scope="row">お部屋の広さ</th>
 								<td>
 									{if !empty( $message.ng.room )}<p class="error">{$message.ng.room}</p>{/if}
@@ -207,6 +217,7 @@
 		</div>
 	</section>
 </div>
+</main>
 {include file=$template_footer_}
 </div>
 </body>

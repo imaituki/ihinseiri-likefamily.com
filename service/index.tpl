@@ -8,7 +8,6 @@
 </head>
 <body id="service">
 <div id="base">
-<div id="base">
 {include file=$template_header_}
 <main>
 <div id="body">

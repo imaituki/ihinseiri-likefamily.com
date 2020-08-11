@@ -34,6 +34,7 @@ $smarty->compile_dir .= "contact/";
 $smarty->assign( "OptionContent", $OptionContent );
 $smarty->assign( "OptionContactType", $OptionContactType );
 $smarty->assign( "OptionRoom", $OptionRoom );
+$smarty->assign( "OptionBuilding", $OptionBuilding );
 
 // 表示
 $smarty->display("index.tpl");

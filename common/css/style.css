@@ -28,6 +28,9 @@
 	#top_service a{display: block; text-decoration: none;}
 	#top_service h3{font-weight: bold; font-size: 1.5em; text-align: center; color: #D87F54; margin-bottom: 10px;}
 	/*#top_service h3:before { content: "\f0a9"; color: #D87F54; padding: 0 5px 0 0;}*/
+	@media (min-width: 768px){
+		#top_service .unit p{padding: 0 25px;}
+	}
 
 /*top_advice*/
 	#top_advice{background: url(../image/contents/top/advice_back.jpg) no-repeat center center / cover;}

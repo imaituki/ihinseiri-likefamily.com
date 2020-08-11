@@ -35,12 +35,21 @@
 								</td>
 							</tr>
 							<tr>
-								<th scope="row">お申し込み種別</th>
+								<th scope="row">{if $arr_post.content == 1}お申し込み種別{else}お問い合わせ種別{/if}</th>
 								<td>
 									{$OptionContactType[$arr_post.type]}
 									<input type="hidden" name="type" value="{$arr_post.type}">
 								</td>
 							</tr>
+							{if $arr_post.content == 1}
+							<tr>
+								<th scope="row">建物種別</th>
+								<td>
+									{$OptionBuilding[$arr_post.building]}
+									<input type="hidden" name="building" value="{$arr_post.building}">
+								</td>
+							</tr>
+							{/if}
 							{if $arr_post.content == 1}
 							<tr>
 								<th scope="row">お部屋の広さ</th>

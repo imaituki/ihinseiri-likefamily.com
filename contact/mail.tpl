@@ -2,9 +2,13 @@
 [ご用件]
 {$OptionContent[$arr_post.content]}
 
-[お申し込み種別]
+{if $arr_post.content == 1}[お申し込み種別]{else}[お問い合わせ種別]{/if}
 {$OptionContactType[$arr_post.type]}
 
+{if $arr_post.content == 1 && !empty( $arr_post.building )}[建物種別]
+{$OptionBuilding[$arr_post.building]}
+
+{/if}
 {if $arr_post.content == 1 && !empty( $arr_post.room )}[お部屋の広さ]
 {$OptionRoom[$arr_post.room]}
 

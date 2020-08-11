@@ -48,6 +48,7 @@ $smarty->compile_dir .= "contact/";
 $smarty->assign( "OptionContent", $OptionContent );
 $smarty->assign( "OptionContactType", $OptionContactType );
 $smarty->assign( "OptionRoom", $OptionRoom );
+$smarty->assign( "OptionBuilding", $OptionBuilding );
 
 //テンプレートに設定
 $smarty->assign( "arr_post", $arr_post );
