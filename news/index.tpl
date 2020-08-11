@@ -41,36 +41,6 @@
 			{foreachelse}
 			<p>お知らせは準備中です。</p>
 			{/foreach}
-			{*<div class="info_box">
-				<a class="ov" href="###">
-					<div class="photo img_rect">
-						<img src="/common/image/contents/null.jpg" alt="">
-					</div>
-					<div class="text">
-						<div class="disp_td">
-							<p class="mb10">
-								<span class="tag">お知らせ</span>
-								<span class="date cg2">2020.01.01</span></p>
-							<h3>ここにお知らせタイトルが入ります。</h3>
-						</div>
-					</div>
-				</a>
-			</div>
-			<div class="info_box">
-				<a class="ov" href="###">
-					<div class="photo img_rect">
-						<img src="/common/image/contents/null.jpg" alt="">
-					</div>
-					<div class="text">
-						<div class="disp_td">
-							<p class="mb10">
-								<span class="tag">お知らせ</span>
-								<span class="date cg2">2020.01.01</span></p>
-							<h3>ここにお知らせタイトルが入ります。</h3>
-						</div>
-					</div>
-				</a>
-			</div>*}
 			<div class="list_pager">
 				<ul class="mt10">
 					{$page_navi.LinkPage}

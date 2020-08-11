@@ -15,7 +15,7 @@ require "./config.ini";
 //  ヘッダー情報
 //----------------------------------------
 // タイトル
-$_HTML_HEADER["title"] = "お問い合わせ";
+$_HTML_HEADER["title"] = "お問い合わせ・お見積もり";
 
 // ディスクリプション
 $_HTML_HEADER["description"] = "";

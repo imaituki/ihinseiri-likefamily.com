@@ -21,8 +21,8 @@
 						<img src="/common/image/head/free.jpg" alt="相談無料" class="icon">
 						<img src="/common/image/head/tel.png" alt="電話番号" class="icon">
 						<p class="num"><span data-tel="086-250-7283"><a href="tel:086-250-7283">086-250-7283</a></span>
-						<span class="time">受付時間 9:00〜22:00</span></p>
-						<p class="estimation"><a href="/contact/"  class="ov"><i class="fas fa-calculator"></i>お問い合わせ</a></p>
+						<span class="time">受付時間 9:00〜20:00</span></p>
+						<p class="estimation"><a href="/contact/"  class="ov"><i class="fas fa-calculator"></i>無料お見積り</a></p>
 					</div>
 				</div>
 			</div>
@@ -39,7 +39,7 @@
 					{*<li><a href="/voice/">お客様の声</a></li>*}
 					<li class="pc_none"><a href="https://sankotsu-likefamily.com/%e4%bc%9a%e7%a4%be%e6%a1%88%e5%86%85/" target="_blank">会社案内</a></li>
 					<li class="pc_none"><a href="/news/">お知らせ</a></li>
-					<li class="pc_none last"><a href="/contact/">お問い合わせ</a></li>
+					<li class="pc_none last"><a href="/contact/">無料お見積り</a></li>
 				</ul>
 			</div>
 		</div>

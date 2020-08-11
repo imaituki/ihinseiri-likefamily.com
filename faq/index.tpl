@@ -22,21 +22,21 @@
     <section>
 		<div class="wrapper">
 			<div class="center">
-                <div class="row mb30 link">
+                <div class="row link">
                     <div class="col-xs-6 mb10">
-                        <a href="./#faq_1" class="height-1 ov"><i class="fas fa-chevron-circle-down"></i>お見積もり・料金について</a>
+                        <a href="./#faq_1" class="ov"><i class="fas fa-chevron-circle-down"></i>お見積もり・料金について</a>
                     </div>
                     <div class="col-xs-6 mb10">
-                        <a href="./#faq_2" class="height-1 ov"><i class="fas fa-chevron-circle-down"></i>お申し込みについて</a>
+                        <a href="./#faq_2" class="ov"><i class="fas fa-chevron-circle-down"></i>お申し込みについて</a>
                     </div>
                     <div class="col-xs-6 mb10">
-                        <a href="./#faq_3" class="height-1 ov"><i class="fas fa-chevron-circle-down"></i>作業について</a>
+                        <a href="./#faq_3" class="ov"><i class="fas fa-chevron-circle-down"></i>作業について</a>
                     </div>
                     <div class="col-xs-6 mb10">
-                        <a href="./#faq_4" class="height-1 ov"><i class="fas fa-chevron-circle-down"></i>その他のご質問</a>
+                        <a href="./#faq_4" class="ov"><i class="fas fa-chevron-circle-down"></i>その他のご質問</a>
                     </div>
                 </div>
-                <div id="faq_1" class="unit">
+                <div id="faq_1" class="unit wrapper-t">
 			    	<h2 class="hl_2 mb30"><span>お見積もり・料金について</span></h2>
                     <div class="faq_box">
                         <dl>

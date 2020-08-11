@@ -27,7 +27,7 @@
 						<img src="/common/image/head/free.jpg" alt="相談無料" class="icon">
 						<img src="/common/image/head/tel.png" alt="電話番号" class="icon">
 						<p class="num"><span data-tel="086-250-7283"><a href="tel:086-250-7283">086-250-7283</a></span>
-						<span class="time">受付時間 9:00〜22:00</span></p>
+						<span class="time">受付時間 9:00〜20:00</span></p>
 						<p class="estimation"><a href="mailto:info@ihinseiri-likefamily.com"  class="ov"><i class="fas fa-envelope"></i>お問い合わせ</a></p>
 					</div>
 				</div>

@@ -7,7 +7,7 @@
 						<span data-tel="086-250-7283"><a href="tel:086-250-7283" class="ov">
 							<p class="pos_ac fw_bold">お電話でのお問い合わせ</p>
 							<p class="pos_ac num"><i class="fas fa-phone-alt"></i>086-250-7283</p>
-							<p class="pos_ac time">受付時間 9:00〜22:00</p>
+							<p class="pos_ac time">受付時間 9:00〜20:00</p>
 						</a></span>
 					</div>
 				</div>

@@ -388,6 +388,10 @@
 .hl_4 .main { color: #D87F54; font-weight: bold; font-size: 2em;}
 .hl_4:before {  top: -20px; font-size: 6em;  font-weight: bold; position: absolute; left: 0; width: 100%; text-align: center; font-family: "Anton", sans-serif;  line-height: 120%; color: #D87F54; opacity: 0.2;}
 
+@media (max-width:575px){
+	.hl_2{font-size: 1.25em;  padding: 9px 10px 5px 10px;}
+}
+
 /*===================================================================
 	button
 ===================================================================*/
@@ -434,7 +438,7 @@
 @media (max-width:575px){
 	#contact .tel_unit .img img{height:70px;}
 	#contact .tel_unit{    padding: 15px 30px;}
-	#contact .tel_box .num{    max-width: 200px; background: #FFF url(/common/image/head/tel.png) no-repeat 0px center / 30px auto;   padding: 0px 0px 10px 35px; }
+	#contact .tel_box .num{    max-width: 220px; background: #FFF url(/common/image/head/tel.png) no-repeat 0px center / 30px auto;   padding: 0px 0px 10px 35px; }
 	#contact .tel_box .num a{font-size: 1.5em;}
 	#contact .tel_box .num .time{font-size: 10px;}
 }
@@ -444,10 +448,10 @@
 ===================================================================*/
 .entry .photo { color: #9A9A9A;}
 .entry label { display: inline-block; max-width: 100%; margin-bottom: 5px; font-weight: 700;}
-.entry .fpath {border: none; background: #fff;}
+.entry .fpath {border: none; background: #fff; text-align: center;}
 .entry label input[type="file"] { display: none;}
 .entry input[type="file"] { border: none;}
-.entry .button.type-6 { position: relative; padding: 10px 15px;  margin: auto; border-radius: 50px; border: 1px solid #DBDBDB; background: #FAFAFA; margin: auto;}
+.entry .button.type-6 {     max-width: 300px; position: relative; padding: 10px 15px;  margin: auto; border-radius: 50px; border: 1px solid #DBDBDB; background: #FAFAFA; margin: auto;}
 
 .entry select{max-width: 300px;}
 .entry table {  border: 1px solid #DBDBDB;  color: #4B4B4B;  width:100%; }
@@ -463,9 +467,10 @@
 .entry td input:checked + label:before {  background-color: #DF8052;
 box-shadow: inset 0 0 0 6px #f4f4f4; }
 .entry tbody dd .zip_block { text-decoration: none; display: inline-block; color: #DF8052; border: 1px solid #DF8052; border-radius: 50px; padding: 5px 10px;}
-
+.entry .img_remove{display: block; margin-bottom: 10px;     text-align: center;}
+.entry .photo div.unit { border-bottom: 1px dashed #ccc; padding-bottom: 20px;}
 @media (min-width: 768px){
-	.entry .photo div { display: flex; align-items: center; margin-bottom: 2%;}
+	.entry .photo div.unit { display: flex; align-items: center; }
 	.entry tbody th {border-right: 1px solid #ccc; }
 	.entry td.content label{margin-right: 30px;}
 	.entry tbody th span{position: absolute; right:30px;}
@@ -476,16 +481,17 @@ box-shadow: inset 0 0 0 6px #f4f4f4; }
 	.entry tbody th span { position: absolute; right:10px;}
 }
 @media (max-width: 991px) {
-.entry td label{margin-right: 0; width: 100%; display: block; margin-bottom: 5px;}
+.entry td label{text-align: center; margin-right: 0; width: 100%; display: block; margin-bottom: 5px;}
 }
 @media (max-width: 767px){
+	.entry .fpath{display: none;}
 	.entry th{  border-bottom: 1px solid #ccc;}
 	.tbl_form, .tbl_form tbody, .tbl_form tr, .tbl_form th, .tbl_form td {display: block;}
 	.entry tbody tr > th:nth-child(1) {width: 100%; max-width: 100%;}
 	.entry tbody tr:not(.first) th { border-top: 1px solid #ccc;}
 	.entry tbody th span {margin-left: 10px;}
 	.entry th{padding: 15px; display: block;}
-	.entry td{padding: 25px 15px 40px 15px; border-bottom: none;}
+	.entry td{padding: 25px 15px; border-bottom: none;}
 }
 
 .button._back { color: #D87F54!important; background: #fff!important;}

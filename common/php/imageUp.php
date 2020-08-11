@@ -26,7 +26,7 @@ if( empty( $_POST["_contents_conf_path"] ) || empty( $_FILES ) ) {
 	//  共通設定
 	//----------------------------------------
 	// 設定ファイルパス
-	$config = "./config.ini";
+	$config = "./../../contact/config.ini";
 
 	// ファイルチェック
 	if( file_exists( $config ) == true ) {
@@ -109,7 +109,7 @@ if( empty( $_POST["_contents_conf_path"] ) || empty( $_FILES ) ) {
 
 						}
 						// 出力
-						$html  = "<img src=\"" . _RENEWAL . "/estimate/imageDisp.php?dir=" . $arr_post["_contents_dir"] . "&image=" . $val["name"] . "&time=" . strtotime("now") . "\" class=\"mb10\" />&nbsp;";
+						$html  = "<img src=\"/common/php/imageDisp.php?dir=" . $arr_post["_contents_dir"] . "&image=" . $val["name"] . "&time=" . strtotime("now") . "\" />";
 						$html .= "<input type=\"hidden\" name=\"_preview_" . $val["name"] . "\" value=\"" . $val["name"]  . "\" />";
 						$html .= '<input type="hidden" name="_preview_image_' . $val["name"] . '" value="' . $pathInfo["filename"] . $ext . '" />';
 						$html .= '<input type="hidden" name="_preview_image_dir" value="' . $pathInfo["dirname"] . '" />';
@@ -135,13 +135,13 @@ if( empty( $_POST["_contents_conf_path"] ) || empty( $_FILES ) ) {
 
 		} else {
 			// is_array( $_ARR_IMAGE )エラーメッセージ
-			$html = "<span class=\"c_red err-img\"> ※ 画像設定ファイルが見つかりません。システム管理者へご連絡下さい。</span>";
+			$html = "<span class=\"c_red err-img\"> ※ ファイルのアップロードに失敗しました。</span>";
 
 		}
 
 	} else {
 		// file_exists( $config )エラーメッセージ
-		$html = "<span class=\"c_red err-img\"> ※ 設定ファイルが見つかりません。システム管理者へご連絡下さい。</span>";
+		$html = "<span class=\"c_red err-img\"> ※ ファイルのアップロードに失敗しました。</span>";
 
 	}
 
@@ -152,6 +152,7 @@ echo "<body>";
 echo "<div class=\"load_image\">";
 echo $html;
 echo "</div>";
+echo "<a href=\"javascript:void(0);\" class=\"img_remove\">画像を削除</a>";
 echo "</body>";
 echo "</html>";
 ?>

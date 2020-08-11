@@ -61,6 +61,9 @@
 							<tr>
 								<th scope="row">お部屋の写真</th>
 								<td class="photo">
+									{if empty( $arr_post._preview_image1 ) && empty( $arr_post._preview_image2 ) && empty( $arr_post._preview_image3 ) && empty( $arr_post._preview_image4 )}
+									<p>お部屋の写真は選択されていません。</p>
+									{/if}
 									{if $arr_post._preview_image1  != NULL}
 										<div>
 											<img src="/common/php/imageDisp.php?dir=contact&image=image1" class="mb10">
@@ -125,8 +128,15 @@
 							<tr>
 								<th scope="row">ご住所</th>
 								<td>
+									{if empty( $arr_post.zip ) && empty( $arr_post.prefecture ) && empty( $arr_post.address1 ) && empty( $arr_post.address2 )}
+									<p>ー</p>
+									{/if}
 									{if !empty( $arr_post.zip )}〒{$arr_post.zip}<br>{/if}
 									{if !empty( $arr_post.prefecture )}{html_select_ken pre=1 selected=$arr_post.prefecture}{/if}{$arr_post.address1}{$arr_post.address2}
+									<input type="hidden" name="zip" value="{$arr_post.zip}">
+									<input type="hidden" name="prefecture" value="{$arr_post.prefecture}">
+									<input type="hidden" name="address1" value="{$arr_post.address1}">
+									<input type="hidden" name="address2" value="{$arr_post.address2}">
 								</td>
 							</tr>
 							{/if}

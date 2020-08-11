@@ -36,7 +36,7 @@ if( empty( $_POST["_contents_conf_path"] ) || empty( $_FILES ) ) {
 
 		// 画像操作クラス
 		$FN_file = new FN_file();
-		
+
 		//----------------------------------------
 		//  ファイルアップロード
 		//----------------------------------------
@@ -115,7 +115,7 @@ if( empty( $_POST["_contents_conf_path"] ) || empty( $_FILES ) ) {
 								}
 
 								// 出力
-								$html  = "<img src=\""._ROOT_ADD_PATH."/admin/common/php/imageDisp.php?dir=" . $arr_post["_contents_dir"] . "&image=" . $val["name"] . "&time=" . strtotime("now") . "\" />&nbsp;";
+								$html  = "<img src=\"/admin/common/php/imageDisp.php?dir=" . $arr_post["_contents_dir"] . "&image=" . $val["name"] . "&time=" . strtotime("now") . "\" />&nbsp;";
 								$html .= "<span class=\"c_red\"> ※この画像はプレビュー用です。まだ保存されていません。 </span><br />";
 								$html .= "<input type=\"hidden\" name=\"imagelist[" . $key3 . "][_preview_" . $val["name"] . "]\" value=\"" . $val["name"]  . "\" />";
 								$html .= '<input type="hidden" name="imagelist[' . $key3 . '][_preview_image_' . $val["name"] . ']" value="' . $pathInfo["filename"] . $ext . '" />';

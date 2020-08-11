@@ -29,7 +29,7 @@
 						<div class="button"><a href="/about/" class="_type1 ov">詳しく見る<i class="fas fa-caret-right"></i></a></div>
             -->
 					</div>
-				</div>
+				</div>　
 			</div>
 		</div>
 	</section>
@@ -37,59 +37,47 @@
 		<div id="top_service">
 			<div class="center wrapper">
 				<h2 class="hl_1">SERVICE<span>サービス案内</span></h2>
-				<div class="row mb30">
+        <div class="row mb30">
 					<div class="col-sm-4 col-xs-6 mb30">
 							<div class="unit height-1 bg_lye">
 								<div class="mb10"><img src="/common/image/contents/top/service1.jpg" alt="遺品整理"></div>
-								<h3 class="fa_b">遺品整理</h3>
-                <!--
-								<p>この文章はダミーです。2~3行程度のテキストが入ります。この文章はダミーです。2~3行程度のテキストが入ります。</p>
-                -->
+								<h3 class="fa_b">遺品管理</h3>
+								<p>故人の遺品を一つ一つ確認しながら丁寧に仕分けをし、不用品の片付け、搬出を行います。</p>
 							</div>
 					</div>
 					<div class="col-sm-4 col-xs-6 mb30">
 							<div class="unit height-1 bg_lye">
 								<div class="mb10"><img src="/common/image/contents/top/service2.jpg" alt="生前整理"></div>
 								<h3 class="fa_b">生前整理</h3>
-                <!--
-								<p>この文章はダミーです。2~3行程度のテキストが入ります。この文章はダミーです。2~3行程度のテキストが入ります。</p>
-              -->
+								<p>不用品の仕分けや片付けなど、一人では難しい断捨離をお手伝いし、終活をサポートします。</p>
 							</div>
 					</div>
 					<div class="col-sm-4 col-xs-6 mb30">
 							<div class="unit height-1 bg_lye">
 								<div class="mb10"><img src="/common/image/contents/top/service3.jpg" alt="特殊清掃"></div>
 								<h3 class="fa_b">特殊清掃</h3>
-                <!--
-								<p>この文章はダミーです。2~3行程度のテキストが入ります。この文章はダミーです。2~3行程度のテキストが入ります。</p>
-              -->
+								<p>さまざまな事情で必要となった特殊な環境下での片付けや不用品処分、清掃作業を請け負います。</p>
             </div>
 					</div>
 					<div class="col-sm-4 col-xs-6 mb30">
 							<div class="unit height-1 bg_lye">
 								<div class="mb10"><img src="/common/image/contents/top/service4.jpg" alt="室内清掃"></div>
-								<h3 class="fa_b">室内清掃</h3>
-                <!--
-								<p>この文章はダミーです。2~3行程度のテキストが入ります。この文章はダミーです。2~3行程度のテキストが入ります。</p>
-              -->
+								<h3 class="fa_b">ハウスクリーニング</h3>
+								<p>キッチン、浴室、リビング、家全体など、ご要望に応じてお掃除のプロがきれいに仕上げます。</p>
 							</div>
 					</div>
 					<div class="col-sm-4 col-xs-6 mb30">
 							<div class="unit height-1 bg_lye">
 								<div class="mb10"><img src="/common/image/contents/top/service5.jpg" alt="不用品片付け"></div>
-								<h3 class="fa_b">不用品片付け</h3>
-                <!--
-								<p>この文章はダミーです。2~3行程度のテキストが入ります。この文章はダミーです。2~3行程度のテキストが入ります。</p>
-              -->
+								<h3 class="fa_b">不用品回収</h3>
+								<p>引越しや部屋の模様替え、断捨離などで処分が必要になった家具や家電、不用品を回収します。</p>
 							</div>
 					</div>
 					<div class="col-sm-4 col-xs-6 mb30">
 							<div class="unit height-1 bg_lye">
 								<div class="mb10"><img src="/common/image/contents/top/service6.jpg" alt="空家整理"></div>
-								<h3 class="fa_b">空家整理</h3>
-                <!--
-								<p>この文章はダミーです。2~3行程度のテキストが入ります。この文章はダミーです。2~3行程度のテキストが入ります。</p>
-              -->
+								<h3 class="fa_b">空家管理</h3>
+								<p>住まなくなった住宅の劣化を防ぐため、ご要望に応じて定期的に訪問し、保守管理を行います。</p>
             </div>
 					</div>
 				</div>
@@ -139,7 +127,7 @@
 							<div class="reason height-1">
 								<div class="img"><img src="/common/image/contents/top/reason3.jpg" alt="無料お見積り"></div>
 								<h3>無料お見積り</h3>
-								<p>お見積りはすべて無料です。また、お見積もり後に追加料金が発生することは絶対にありません。</p>
+								<p>お見積りはすべて無料です。また、お見積り後に追加料金が発生することは絶対にありません。</p>
 							</div>
 						</div>
 						<div class="col-xs-6 mb30">
@@ -217,7 +205,7 @@
 					<div class="col-xs-7 col-xs-pull-5 disp_tbl2 height-1">
 						<div class="disp_td">
 							<h3>追加料金は一切いただきません！</h3>
-							<p class="mb20">当社が出張見積もりの段階でご提示するお見積り金額には、遺品の処理費や作業費、清掃費、運搬費、合同供養費、貴重品の捜索費など、通常の遺品整理に必要なサービス料金がすべて含まれております。お見積り後に追加料金が発生することはありませんので、ご安心ください。</p>
+							<p class="mb20">当社が出張見積りの段階でご提示するお見積り金額には、遺品の処理費や作業費、清掃費、運搬費、合同供養費、貴重品の捜索費など、通常の遺品整理に必要なサービス料金がすべて含まれております。お見積り後に追加料金が発生することはありませんので、ご安心ください。</p>
 							<p>処分する不用品に高価買取できるものがあれば、遺品整理の費用から買取価格を差し引くことも可能です。</p>
 						</div>
 					</div>
@@ -443,7 +431,7 @@
 							<img src="/common/image/contents/top/flow1.jpg" alt="見積りの依頼">
 							<p class="maru"><span>1</span></p>
 						</div>
-						<p class="pos_ac fw_bold title">見積りの依頼</p>
+						<p class="pos_ac fw_bold title">お見積りの依頼</p>
 					</div>
 					<div class="arrow">
 						<i class="fas fa-caret-right sp_none"></i>
@@ -454,7 +442,7 @@
 							<img src="/common/image/contents/top/flow2.jpg" alt="無料お見積り">
 							<p class="maru"><span>2</span></p>
 						</div>
-						<p class="pos_ac fw_bold title">無料お見積り</p>
+						<p class="pos_ac fw_bold title">無料お見積り・契約</p>
 					</div>
 					<div class="arrow">
 						<i class="fas fa-caret-right sp_none"></i>
@@ -465,7 +453,7 @@
 							<img src="/common/image/contents/top/flow3.jpg" alt="お申込み">
 							<p class="maru"><span>3</span></p>
 						</div>
-						<p class="pos_ac fw_bold title">お申込み</p>
+						<p class="pos_ac fw_bold title">作業開始</p>
 					</div>
 					<div class="arrow">
 						<i class="fas fa-caret-right sp_none"></i>
@@ -476,7 +464,7 @@
 							<img src="/common/image/contents/top/flow4.jpg" alt="作業開始">
 							<p class="maru"><span>4</span></p>
 						</div>
-						<p class="pos_ac fw_bold title">作業開始</p>
+						<p class="pos_ac fw_bold title">作業完了報告</p>
 					</div>
 
 				</div>
@@ -604,22 +592,6 @@
                     {foreachelse}
                     <p class="pos_ac">作業実績は準備中です。</p>
                     {/foreach}
-                    {*<div class="col-sm-4 mb20">
-                        <div class="unit height-1">
-                            <p class="cat">作業実績</p>
-                            <div class="img"><div class="img_rect"><img src="/common/image/contents/top/service1.jpg" alt=""></div></div>
-                            <p class="date">2020.07.01</p>
-                            <p class="title">作業事例　生前整理と荷物移動　岡山県岡山市にて</p>
-                        </div>
-                    </div>
-                    <div class="col-sm-4 mb20">
-                        <div class="unit height-1">
-                            <p class="cat">作業実績</p>
-                            <div class="img"><div class="img_rect"><img src="/common/image/contents/top/service1.jpg" alt=""></div></div>
-                            <p class="date">2020.07.01</p>
-                            <p class="title">作業事例　生前整理と荷物移動　岡山県岡山市にて</p>
-                        </div>
-                    </div>*}
                 </div>
 				<div class="button mb50"><a href="/work/" class="_type1 ov">一覧を見る<i class="fas fa-caret-right"></i></a></div>
 			</div>

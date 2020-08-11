@@ -1,8 +1,8 @@
 <?php
 //-------------------------------------------------------------------
-// 作成日： 2019/10/25
-// 作成者： 岡田
-// 内  容： お問い合わせ
+// 作成日: 2020/08/06
+// 作成者: 福嶋
+// 内  容: お問い合わせ・お見積もり
 //-------------------------------------------------------------------
 
 //----------------------------------------
@@ -17,9 +17,20 @@ $message = NULL;
 
 // 操作クラス
 $objContact = new FT_contact( $_ARR_MAIL["contact"]["savePath"] );
+$_FN_file = new FN_file();
 
 // データチェック
 $message = $objContact->check( $arr_post );
+
+//----------------------------------------
+//  画像登録
+//----------------------------------------
+// エラーチェック
+if( empty( $message["ng"] ) ) {
+
+	$ImageInfo = $_FN_file->copyImage( $_FILES, $_ARR_IMAGE, $arr_post );
+
+}
 
 //----------------------------------------
 //  メール送信
@@ -77,9 +88,9 @@ if( empty( $message["ng"] ) ) {
 ". $_SERVER["HTTP_USER_AGENT"]. "
 
 --------------------------------------------------------";
-disp_arr($mail1);
-disp_arr($mail2);
-exit;
+// disp_arr($mail1);
+// disp_arr($mail2);
+// exit;
 	// 改行
 	$mail2 = str_replace( "\r", "\n", str_replace( "\r\n", "\n", ( $mail_conf["master"]["header"] . "\n\n" . $mail2 . "\n" . $mail_conf["master"]["footer"] ) ) );
 

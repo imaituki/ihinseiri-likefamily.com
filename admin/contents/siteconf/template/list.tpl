@@ -33,4 +33,17 @@
 		</tr>
 	</tbody>
 </table>
+<table class="footable table table-stripped toggle-arrow-tiny tbl_1" data-page-size="15">
+	<tbody>
+		<tr class="gray-bg">
+			<th colspan="2">企業情報設定</th>
+		</tr>
+		{foreach from=$_ADMIN.siteconf item=conf}
+		<tr>
+			<th width="250">{$conf.title}</th>
+			<td>{$data[$conf.name]|default:''}</td>
+		</tr>
+		{/foreach}
+	</tbody>
+</table>
 {include file=$template_pagenavi}

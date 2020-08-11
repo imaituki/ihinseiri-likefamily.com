@@ -104,7 +104,7 @@ body, #base, #body { position:relative; overflow-x:hidden; }
 		#head_navi li:not(.sns) { border-top:1px solid #ccc; }
 		#head_navi li:not(.sns) > a { display:block; padding:10px 15px; }
 		#head_navi .sns { text-align:center; padding:20px 0; }
-		#base.open #head_navi { top:106px; }
+		#base.open #head_navi { top:106px; display: block!important;}
 		#base.open #head_navi li.last{ border-bottom:1px solid #ccc;}
 	}
 	@media (max-width: 575px){

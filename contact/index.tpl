@@ -5,6 +5,8 @@
     {include file=$template_meta}
 	<link rel="stylesheet" href="/common/css/import.css">
 	{include file=$template_javascript}
+	<script src="https://ajaxzip3.github.io/ajaxzip3.js" charset="UTF-8"></script>
+	<script type="text/javascript" src="/common/js/contact.js"></script>
 </head>
 <body id="contact">
 <div id="base">
@@ -24,7 +26,7 @@
 			<div class="center entry">
 				<div class="tel_unit mb50">
 					<h3 class="mb10">お急ぎの場合はお電話にてご連絡ください！</h3>
-					<p class="img"><img src="/common/image/contents/contact/person.png" alt=""></p>
+					<p class="img"><img src="/common/image/contents/contact/person.png" alt="電話受付"></p>
 					<div class="tel_box">
 						<p class="num">
 							<span class="tel" data-tel="086-250-7283"><a href="tel:086-250-7283">086-250-7283</a></span>
@@ -66,29 +68,65 @@
 							<tr class="content1">
 								<th scope="row">お部屋の写真</th>
 								<td class="photo">
-									<div>
-										<label class="photo_uload" for="fuload-1">
+									<div class="mb20 unit">
+										<label class="photo_uload pos_ac" for="fuload-1">
+										{if $arr_post._preview_image1  != NULL}
+											<div class="load_image">
+												<img src="/common/php/imageDisp.php?dir=contact&image=image1">
+												<input type="hidden" name="_preview_image1" value="{$arr_post._preview_image1}">
+												<input type="hidden" name="_preview_image_image1" value="{$arr_post._preview_image_image1}">
+												<input type="hidden" name="_preview_image_dir" value="{$arr_post._preview_image_dir}">
+											</div>
+											<a href="javascript:void(0);" class="img_remove">画像を削除</a>
+										{/if}
 											<input type="file" name="image1" class="file" id="f-1" onchange="$('#fpath-1').val($(this).val())">
 											<input class="button type-6" type="button" id="fuload-1" value="ファイルを選択" onclick="$('#f-1').click();">
 										</label>
 										<input class="fpath" type="text" id="fpath-1" value="ファイルが選択されていません" size="35" readonly="" onclick="$('#f-1').click();">
 									</div>
-									<div>
+									<div class="mb20 unit">
 										<label class="photo_uload" for="fuload-2">
+										{if $arr_post._preview_image2  != NULL}
+											<div class="load_image">
+												<img src="/common/php/imageDisp.php?dir=contact&image=image2">
+												<input type="hidden" name="_preview_image2" value="{$arr_post._preview_image2}">
+												<input type="hidden" name="_preview_image_image2" value="{$arr_post._preview_image_image2}">
+												<input type="hidden" name="_preview_image_dir" value="{$arr_post._preview_image_dir}">
+											</div>
+											<a href="javascript:void(0);" class="img_remove">画像を削除</a>
+										{/if}
 											<input type="file" name="image2" class="file" id="f-2" onchange="$('#fpath-2').val($(this).val())">
 											<input class="button type-6" type="button" id="fuload-2" value="ファイルを選択" onclick="$('#f-2').click();">
 										</label>
 										<input class="fpath" type="text" id="fpath-2" value="ファイルが選択されていません" size="35" readonly="" onclick="$('#f-2').click();">
 									</div>
-									<div>
+									<div class="mb20 unit">
 										<label class="photo_uload" for="fuload-3">
+										{if $arr_post._preview_image3  != NULL}
+											<div class="load_image">
+												<img src="/common/php/imageDisp.php?dir=contact&image=image3">
+												<input type="hidden" name="_preview_image3" value="{$arr_post._preview_image3}">
+												<input type="hidden" name="_preview_image_image3" value="{$arr_post._preview_image_image3}">
+												<input type="hidden" name="_preview_image_dir" value="{$arr_post._preview_image_dir}">
+											</div>
+											<a href="javascript:void(0);" class="img_remove">画像を削除</a>
+										{/if}
 											<input type="file" name="image3" class="file" id="f-3" onchange="$('#fpath-3').val($(this).val())">
 											<input class="button type-6" type="button" id="fuload-3" value="ファイルを選択" onclick="$('#f-3').click();">
 										</label>
 										<input class="fpath" type="text" id="fpath-3" value="ファイルが選択されていません" size="35" readonly="" onclick="$('#f-3').click();">
 									</div>
-									<div>
+									<div class="mb20 unit">
 										<label class="photo_uload" for="fuload-4">
+										{if $arr_post._preview_image4  != NULL}
+											<div class="load_image">
+												<img src="/common/php/imageDisp.php?dir=contact&image=image4">
+												<input type="hidden" name="_preview_image4" value="{$arr_post._preview_image4}">
+												<input type="hidden" name="_preview_image_image4" value="{$arr_post._preview_image_image4}">
+												<input type="hidden" name="_preview_image_dir" value="{$arr_post._preview_image_dir}">
+											</div>
+											<a href="javascript:void(0);" class="img_remove">画像を削除</a>
+										{/if}
 											<input type="file" name="image4" class="file" id="f-4" onchange="$('#fpath-4').val($(this).val())">
 											<input class="button type-6" type="button" id="fuload-4" value="ファイルを選択" onclick="$('#f-4').click();">
 										</label>

@@ -27,6 +27,26 @@
 		{if $_ARR_IMAGE != NULL}
 			{include file=$template_image path=$_IMAGEFULLPATH dir=$_CONTENTS_DIR prefix="s_"}
 		{/if}
+		{foreach from=$_ADMIN.siteconf item=conf}
+			{if $conf.single == 1}
+			<div class="form-group">
+				<label class="col-sm-2 control-label">{$conf.title}</label>
+				<div class="col-sm-6">
+					{if $message.ng[$conf.name]|default:"" != NULL}<p class="error">{$message.ng[$conf.name]}</p>{/if}
+					<input type="text" class="form-control" name="{$conf.name}" id="{$conf.name}" value="{$arr_post[$conf.name]|default:''}" />
+				</div>
+			</div>
+			{else}
+			<div class="form-group">
+				<label class="col-sm-2 control-label">{$conf.title}</label>
+				<div class="col-sm-9">
+					{if $message.ng[$conf.name]|default:"" != NULL}<p class="error">{$message.ng[$conf.name]}</p>{/if}
+					<textarea name="{$conf.name}" id="{$conf.name}" rows="7" class="form-control">{$arr_post[$conf.name]|default:""}</textarea>
+				</div>
+			</div>
+			{/if}
+			<div class="hr-line-dashed"></div>
+		{/foreach}
 		{if $mode == 'edit'}<input type="hidden" name="{$_CONTENTS_ID}" value="1" />{/if}
 		<input type="hidden" name="_contents_dir" id="_contents_dir" value="{$_CONTENTS_DIR}" />
 		<input type="hidden" name="_contents_conf_path" id="_contents_conf_path" value="{$_CONTENTS_CONF_PATH}" />

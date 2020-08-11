@@ -16,6 +16,11 @@ if( !empty( $_SESSION["front"]["contact"]["preview"][$_GET["image"]] ) ) {
 		!empty( $_SESSION["front"]["contact"]["preview"][$_GET["image"]]["tmp_name"] ) &&
 		!empty( $_SESSION["front"]["contact"]["preview"][$_GET["image"]]["fn"] ) ) {
 
+		// 画像のサイズ指定
+		if( !empty( $_GET["size"] ) ){
+			$_SESSION["admin"][$_GET["dir"]]["preview"][$_GET["image"]]["tmp_name"] = str_replace("/s_", "/".$_GET["size"]."_", $_SESSION["admin"][$_GET["dir"]]["preview"][$_GET["image"]]["tmp_name"]);
+		}
+
 		// function
 		$function1 = "imagecreatefrom".$_SESSION["front"]["contact"]["preview"][$_GET["image"]]["fn"];
 		$function2 = "image".$_SESSION["front"]["contact"]["preview"][$_GET["image"]]["fn"];

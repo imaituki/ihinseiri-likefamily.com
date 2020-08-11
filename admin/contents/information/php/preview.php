@@ -20,7 +20,9 @@ $_HTML_HEADER["title"] = "お知らせ";
 // 保存済みの画像
 if( is_array( $_ARR_IMAGE ) ) {
 	foreach( $_ARR_IMAGE as $key => $val ) {
-		if( !empty($arr_post["_image". $key. "_now"]) ){
+		if( !empty( $arr_post["_preview_image_" . $val["name"]] ) ){
+			$arr_post[$val["name"]] = "dammy";
+		}elseif( !empty($arr_post["_image". $key. "_now"]) ){
 			$arr_post["image". $key] = $arr_post["_image". $key. "_now"];
 		}
 	}
@@ -52,6 +54,16 @@ $smarty->assign( "info", $arr_post );
 
 // 表示
 $html = $smarty->fetch( _PREVIEW_TPL, "",  "news_preview" );
+
+if( is_array( $_ARR_IMAGE ) ) {
+	foreach( $_ARR_IMAGE as $key => $val ) {
+		if( !empty( $arr_post["_preview_" . $val["name"]] ) ) {
+			$html = str_replace( ( _IMAGEPATH . "/" . _CONTENTS_DIR . "/" . $val["name"] . "/" . $val["option"]["s"]["prefixFileName"] . $arr_post[$val["name"]] ), ( "/admin/common/php/imageDisp.php?path=" . $arr_post["_contents_conf_path"] . "&dir=" . $arr_post["_contents_dir"] . "&image=" . $val["name"] . "&size=s" ), $html );
+			$html = str_replace( ( _IMAGEPATH . "/" . _CONTENTS_DIR . "/" . $val["name"] . "/" . $val["option"]["m"]["prefixFileName"] . $arr_post[$val["name"]] ), ( "/admin/common/php/imageDisp.php?path=" . $arr_post["_contents_conf_path"] . "&dir=" . $arr_post["_contents_dir"] . "&image=" . $val["name"] . "&size=m" ), $html );
+			$html = str_replace( ( _IMAGEPATH . "/" . _CONTENTS_DIR . "/" . $val["name"] . "/" . $val["option"]["l"]["prefixFileName"] . $arr_post[$val["name"]] ), ( "/admin/common/php/imageDisp.php?path=" . $arr_post["_contents_conf_path"] . "&dir=" . $arr_post["_contents_dir"] . "&image=" . $val["name"] . "&size=l" ), $html );
+		}
+	}
+}
 
 echo $html;
 ?>
