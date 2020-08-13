@@ -108,47 +108,48 @@
 		<div id="top_reason"  class="bg_lye">
 			<div class="center wrapper">
 				<h2 class="hl_1">REASON<span>ライクファミリーが選ばれる理由</span></h2>
-				<div class="row">
-					<div class="col-xs-6 mb30">
-						<div class="reason height-1">
-							<div class="img"><img src="/common/image/contents/top/reason1.jpg" alt="清潔な服"></div>
-							<h3>清潔な服</h3>
-							<p>故人が生前過ごした大切な家に上がるため、スタッフは当社規定のユニフォームを着用し、きれいな服装を徹底しております。</p>
+					<div class="row">
+						<div class="col-xs-6 mb30">
+							<div class="reason height-1">
+								<div class="img"><img src="/common/image/contents/top/reason1.jpg" alt="清潔な服"></div>
+								<h3>清潔な服</h3>
+								<p>故人が生前過ごした大切な家に上がるため、スタッフは当社規定のユニフォームを着用し、きれいな服装を徹底しております。</p>
+							</div>
 						</div>
-					</div>
-					<div class="col-xs-6 mb30">
-						<div class="reason height-1">
-							<div class="img"><img src="/common/image/contents/top/reason2.jpg" alt="わかりやすい料金体系"></div>
-							<h3>わかりやすい料金体系</h3>
-							<p>ご依頼主様にわかりやすい料金体系で、作業内容に応じたきめ細やかなご提案をさせていただきます。</p>
+						<div class="col-xs-6 mb30">
+							<div class="reason height-1">
+								<div class="img"><img src="/common/image/contents/top/reason2.jpg" alt="わかりやすい料金体系"></div>
+								<h3>わかりやすい料金体系</h3>
+								<p>ご依頼主様にわかりやすい料金体系で、作業内容に応じたきめ細やかなご提案をさせていただきます。</p>
+							</div>
 						</div>
-					</div>
-					<div class="col-xs-6 mb30">
-						<div class="reason height-1">
-							<div class="img"><img src="/common/image/contents/top/reason3.jpg" alt="無料お見積り"></div>
-							<h3>無料お見積り</h3>
-							<p>お見積りはすべて無料です。また、お見積り後に追加料金が発生することは絶対にありません。</p>
+						<div class="col-xs-6 mb30">
+							<div class="reason height-1">
+								<div class="img"><img src="/common/image/contents/top/reason3.jpg" alt="無料お見積り"></div>
+								<h3>無料お見積り</h3>
+								<p>お見積りはすべて無料です。また、お見積り後に追加料金が発生することは絶対にありません。</p>
+							</div>
 						</div>
-					</div>
-					<div class="col-xs-6 mb30">
-						<div class="reason height-1">
-							<div class="img"><img src="/common/image/contents/top/reason4.jpg" alt="作業完了報告書"></div>
-							<h3>作業完了報告書</h3>
-							<p>ビフォーアフターを撮影した写真を添えて、作業完了報告書を提出いたします。ご希望があれば、別途料金5000円（税別）にて、作業風景の動画撮影も可能です。</p>
+						<div class="col-xs-6 mb30">
+							<div class="reason height-1">
+								<div class="img"><img src="/common/image/contents/top/reason4.jpg" alt="作業完了報告書"></div>
+								<h3>作業完了報告書</h3>
+								<p>ビフォーアフターを撮影した写真を添えて、作業完了報告書を提出いたします。ご希望があれば、別途料金5,000円（税別）にて、作業風景の動画撮影も可能です。</p>
+							</div>
 						</div>
-					</div>
-                    <div class="col-xs-6 mb30">
-                        <div class="reason height-1">
-                            <div class="img"><img src="/common/image/contents/top/reason6.jpg" alt="こまめな連絡"></div>
-                        <h3>こまめな連絡</h3>
-                        <p>「これは処分してはいけない必要なものでは？」と気づいた遺品が見つかったときなど、すぐにご依頼主様にご連絡いたします。</p>
-                        </div>
-                    </div>
-					<div class="col-xs-6 mb30">
-						<div class="reason height-1">
-							<div class="img"><img src="/common/image/contents/top/reason5.jpg" alt="アフターフォローの充実"></div>
-							<h3>アフターフォローの充実</h3>
-							<p>遺品整理だけでなく、家屋の解体や不動産管理など、その他のご相談にも応じます。</p>
+            <div class="col-xs-6 mb30">
+              <div class="reason height-1">
+                <div class="img"><img src="/common/image/contents/top/reason6.jpg" alt="こまめな連絡"></div>
+                <h3>こまめな連絡</h3>
+                <p>「これは処分してはいけない必要なものでは？」と気づいた遺品が見つかったときなど、すぐにご依頼主様にご連絡いたします。</p>
+              </div>
+            </div>
+						<div class="col-xs-6 mb30">
+							<div class="reason height-1">
+								<div class="img"><img src="/common/image/contents/top/reason5.jpg" alt="アフターフォローの充実"></div>
+								<h3>アフターフォローの充実</h3>
+								<p>遺品整理だけでなく、家屋の解体や不動産管理など、その他のご相談にも応じます。</p>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -623,10 +624,10 @@
 					</dl>*}
                 </div>
 				<div class="button mb50"><a href="/news/" class="_type1 ov">一覧を見る<i class="fas fa-caret-right"></i></a></div>
-			    </div>
-		    </div>
-	</section>
 -->
+			</div>
+		</div>
+	</section>
 </div>
 </main>
 {include file=$template_footer}

@@ -32,11 +32,11 @@
                         <div class="unit height-1 disp_tbl2">
                             <div class="disp_td">
                                 <div class="num_hl mb20"><span class="num">1</span><span class="title">見積りの依頼</span></div>
-                                <p class="mb20">お見積りは無料です。お電話またはお見積もりフォームにてお問い合わせください。<br>
+                                <p class="mb20">お見積りは無料です。お電話またはお見積りフォームにてお問い合わせください。<br>
 																	担当スタッフがお電話で丁寧にご説明しますので、ご要望をお聞かせください。遺品整理だけでなく、ハウスクリーニングや不用品回収、空家の管理、遺品の供養など、さまざまなサービスをご用意していますので、気軽にご相談ください。<br>
                                     <span data-tel="0862507283"><a href="tel:0862507283" class="tel ov">086-250-7283</a></span>（受付時間 {$_INFO.worktime|default:'9:00〜20:00'}）
                                 </p>
-                    			<div class="button"><a href="/contact/" class="_type2 ov">お見積はこちら</a></div>
+                    			<div class="button"><a href="/contact/" class="_type2 ov">お見積りはこちら</a></div>
                             </div>
                         </div>
                     </div>
@@ -45,13 +45,13 @@
                 <div class="row mb50">
                     <div class="height-1 col-xs-4 disp_tbl2 img">
                         <div class="disp_td">
-                            <img src="/common/image/contents/flow/flow2.jpg" alt="無料お見積もり・契約">
+                            <img src="/common/image/contents/flow/flow2.jpg" alt="無料お見積り・契約">
                         </div>
                     </div>
                     <div class="height-1 col-xs-8">
                         <div class="unit height-1 disp_tbl2">
                             <div class="disp_td">
-                                <div class="num_hl mb20"><span class="num">2</span><span class="title">無料お見積もり・契約</span></div>
+                                <div class="num_hl mb20"><span class="num">2</span><span class="title">無料お見積り・契約</span></div>
                                 <p class="mb20">担当スタッフが直接お伺いし、無料でお見積りをいたします。<br>「少しでも安く済ませるにはどうすればよいか」「探し物がある」など、気になることがあれば何でもお聞きください。できる限り、お客様のご要望に沿ったプランのご提案をいたします。<br>
 																お見積り内容・金額にご納得いただけましたら、ご契約、作業日程の確定を行います。<br>
 																お見積り金額が20万円を超える場合には、事前に着手金（50％）のお支払いをお願いいたします。

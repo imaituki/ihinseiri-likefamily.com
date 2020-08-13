@@ -12,10 +12,10 @@
 <main>
 <div id="body">
 	<div id="page_title">
-		<div class="img_back"><img src="/common/image/contents/contact/top.jpg" alt="お問い合わせ・お見積もり"></div>
+		<div class="img_back"><img src="/common/image/contents/contact/top.jpg" alt="お問い合わせ・お見積り"></div>
 		<div class="page_title_wrap">
 			<div class="center">
-				<h2><span class="main">お問い合わせ・お見積もり</span></h2>
+				<h2><span class="main">お問い合わせ・お見積り</span></h2>
 			</div>
 		</div>
 	</div>

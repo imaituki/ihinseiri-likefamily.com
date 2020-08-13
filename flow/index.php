@@ -15,7 +15,7 @@ require "./config.ini";
 //  ヘッダー情報
 //----------------------------------------
 // タイトル
-$_HTML_HEADER["title"] = "作業の流れ";
+$_HTML_HEADER["title"] = "遺品整理の流れ";
 
 // ディスクリプション
 $_HTML_HEADER["description"] = "";

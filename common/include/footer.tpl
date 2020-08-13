@@ -17,7 +17,7 @@
 							<p class="pos_ac"><span>お気軽にご相談ください</span></p>
 							<p class="pos_ac hl">お問い合わせ</p>
 							<i class="fas fa-arrow-circle-right"></i>
-							<p class="person"><img src="/common/image/contents/top/adviser.png" alt="お見積もり"></p>
+							<p class="person"><img src="/common/image/contents/top/adviser.png" alt="お見積り"></p>
 						</a>
 					</div>
 				</div>
@@ -92,7 +92,8 @@
 			<div class="row">
 				<div class="col-xs-6 height-1 disp_tbl2">
 					<div class="disp_td">
-						<p class="allowed"><span class="c_or">許認可</span>古物商許可：第721130025142号　</p>
+						<p class="allowed mb10"><span class="c_or">許認可</span>古物商許可：第721130025142号　</p>
+						<p class="mb10">ライクファミリーは一般廃棄物業者と連携しています。</p>
 					</div>
 				</div>
 				<div class="col-xs-6 height-1 disp_tbl2">

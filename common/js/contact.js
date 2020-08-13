@@ -4,12 +4,15 @@ $(function(){
 	// 用件切り替え
 	if( $('input[name="content"]:checked').val() == "2" ){
 		$('.content1').hide();
+		$('tr.first').next().children('th').text('お問い合わせ種別');
 	}
 	$('input[name="content"]').on('change',function(){
 		if( $(this).val() == 2 ){
 			$('.content1').hide();
+			$('tr.first').next().children('th').text('お問い合わせ種別');
 		}else{
 			$('.content1').show();
+			$('tr.first').next().children('th').text('お申し込み種別');
 		}
 	});
 

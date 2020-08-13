@@ -77,7 +77,7 @@
                         <div class="reason height-1">
                             <div class="img"><img src="/common/image/contents/top/reason3.jpg" alt="無料お見積り"></div>
                             <h3>無料お見積り</h3>
-                            <p>お見積りはすべて無料です。また、お見積もり後に追加料金が発生することは絶対にありません。</p>
+                            <p>お見積りはすべて無料です。また、お見積り後に追加料金が発生することは絶対にありません。</p>
                         </div>
                     </div>
                     <div class="col-xs-6 mb30">

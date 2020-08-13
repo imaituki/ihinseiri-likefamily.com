@@ -3,7 +3,7 @@
         <div class="center">
             <div class="hl">
                 <img src="/common/image/contents/promise_p1.png" alt="ライクファミリー の6つのお約束" class="_1">
-                <p>ライクファミリー<br class="visible-only">の<br class="visible-only"><span>6</span>つのお約束</p>
+                <p>ライクファミリーの<br class="visible-only"><span>6</span>つのお約束</p>
                 <img src="/common/image/contents/promise_p2.png" alt="ライクファミリー の6つのお約束" class="_2">
             </div>
             <div class="p_unit_box">
@@ -12,7 +12,7 @@
                         <div class="unit bg_lye height-1">
                             <p class="flex_c fw_bold large mb20"><span class="num roboto">1</span><span>追加料金なし</span></p>
                             <p class="pos_ac mb20"><img src="/common/image/contents/promise1.png" alt="追加料金なし"></p>
-                            <p>ご依頼をいただくと、作業内容や処分する不用品の量など、細かくお聞きし、作業をご依頼の場所に伺って、無料でお見積りをいたします。見積もり内容や料金をご確認のうえ、ご契約いただいたのちに、追加費用が発生することは一切ありません。</p>
+                            <p>ご依頼をいただくと、作業内容や処分する不用品の量など、細かくお聞きし、作業をご依頼の場所に伺って、無料でお見積りをいたします。見積り内容や料金をご確認のうえ、ご契約いただいたのちに、追加費用が発生することは一切ありません。</p>
                         </div>
                     </div>
                     <div class="col-xs-4 col-xs-6 mb20">
@@ -47,7 +47,7 @@
                         <div class="unit bg_lye height-1">
                             <p class="flex_c fw_bold large mb20"><span class="num roboto">6</span><span>即日対応可能</span></p>
                             <p class="pos_ac mb20"><img src="/common/image/contents/promise6.png" alt="即日対応可能"></p>
-                            <p>お問い合わせ・見積もりご依頼をいただいたお客様には、可能な限り即日対応を行っています。「仕事の都合で今日しか時間が取れないので、見積りに来てほしい」など、お気軽にご相談ください。スピーディーな対応をお約束します。</p>
+                            <p>お問い合わせ・お見積りご依頼をいただいたお客様には、可能な限り即日対応を行っています。「仕事の都合で今日しか時間が取れないので、見積りに来てほしい」など、お気軽にご相談ください。スピーディーな対応をお約束します。</p>
                         </div>
                     </div>
                 </div>

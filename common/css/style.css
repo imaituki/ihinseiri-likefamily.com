@@ -298,14 +298,14 @@
 }
 @media (max-width: 575px){
 	#service #unit1 .hl_3 {font-size: 1.5em;}
-	#service #unit1 .unit .pos_re img{opacity: 0.5; }
+	#service #unit1 .unit .pos_re img{opacity: 0.9; }
 	#service #unit1 h3{    font-size: 1.5em;}
 	#service #unit1 .pos_ab{ position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); -webkit-transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); min-width: 270px;}
 	#service #unit1 .unit .text_unit{padding: 30px 15px;}
 	#service .sp_mb20{margin-bottom: 20px;}
 }
 
-#service #unit2 h3{    font-weight: bold; font-size: 1.75em; color: #656565; background: url(/common/image/contents/service/illust.png) no-repeat 25px center / 110px auto; padding: 30px;}
+#service #unit2 h3{    font-weight: bold; font-size: 1.75em; color: #656565; background: url(/common/image/contents/service/illust.png) no-repeat -10px center / 110px auto; padding: 30px;}
 
 @media (max-width: 575px){
 	#service #unit2 h3 span{    text-shadow: #FFF 1px 1px 10px, #fff -1px 1px 10px, #fff -1px 1px 10px, #fff -1px 1px 10px}
@@ -393,6 +393,7 @@
 
 @media (max-width:575px){
 	.hl_2{font-size: 1.25em;  padding: 9px 10px 5px 10px;}
+	.hl_3 {font-size: 1.3em;}
 }
 
 /*===================================================================
@@ -435,6 +436,7 @@
 
 @media (max-width:767px){
 	#contact .tel_unit .img img{height:185px;}
+	#contact .tel_box{padding: 10px 5px;}
 	#contact .tel_box .num a{font-size: 2.25em;}
 
 }

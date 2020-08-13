@@ -8,6 +8,7 @@
 </head>
 <body id="service">
 <div id="base">
+<div id="base">
 {include file=$template_header_}
 <main>
 <div id="body">
@@ -25,11 +26,11 @@
 				<h2 class="hl_3 pos_ac fw_bold mb40">遺品整理のライクファミリーがご提供する<br class="pc_none">充実なサービス</h2>
                 <div class="unit">
                     <div class="pos_ac pos_re">
-                        <img src="/common/image/contents/service/service_back.jpg" alt="遺品整理・生前整理">
+						<img src="/common/image/contents/service/service_back.jpg" alt="遺品整理・生前整理" class="hidden-only">
+                        <img src="/common/image/contents/service/service_back_sp.jpg" alt="遺品整理・生前整理" class="visible-only">
                         <div class="pos_ab">
                             <h3 class="mb10"><span>遺品整理・生前整理</span></h3>
-                            <p class="fw_bold">故人の遺品を一つ一つ確認しながら丁寧に仕分けをし、不用品の片付け、搬出を行います。<br>
-														不用品の仕分けや片付けなど、一人では難しい断捨離をお手伝いし、終活をサポートします。</p>
+                            <p class="fw_bold">故人の遺品を一つ一つ確認しながら丁寧に仕分けをし、不用品の片付け、搬出を行います。<br>不用品の仕分けや片付けなど、一人では難しい断捨離をお手伝いし、終活をサポートします。</p>
                         </div>
                     </div>
                     <div class="text_unit">
@@ -89,34 +90,34 @@
                 <h3 class="pos_ac"><span>こんなお悩みをお持ちの方に</span></h3>
                 <ul>
                     <li class="mb20 fa_b">
-                        <span class="text">急すぎて何から手を付けてよいのかわからない。</span>
+                        <span class="text">突然のことで、何から手を付けてよいかわからない</span>
                     </li>
                     <li class="mb20 fa_b">
-                        <span class="text">遺品の量が多くて、一人では片付けられない。</span>
+                        <span class="text">モノが多すぎて、家族だけでは片付けられない</span>
                     </li>
                     <li class="mb20 fa_b">
-                        <span class="text">何から手を付ければいいか分からない。</span>
+                        <span class="text">忙しすぎて遺品を整理する時間がない</span>
                     </li>
                     <li class="mb20 fa_b">
-                        <span class="text">物が多く、一人では手に負えない。…</span>
+                        <span class="text">エアコンのない家で、真夏の片付けは無理…</span>
                     </li>
                     <li class="mb20 fa_b">
-                      <span class="text">近隣の住民に知られずに、ゴミを処分したい。…</span>
+                      <span class="text">親が高齢なので、実家の片付けをしておきたい</span>
                     </li>
                     <li class="mb20 fa_b">
-                      <span class="text">長年故人が住んでいた家をキレイにしたい。…</span>
+                      <span class="text">遠方に住んでいるので、片付けに立ち会えない</span>
                     </li>
                     <li class="mb20 fa_b">
-                      <span class="text">何から手を付ければいいか分からない。…</span>
+                      <span class="text">故人のために遺品の供養をしたい</span>
                     </li>
                     <li class="mb20 fa_b">
-                      <span class="text">物が多く、一人では手に負えない。…</span>
+                      <span class="text">業者が多すぎて、どこに頼めばいいのかわからない</span>
                     </li>
                     <li class="mb20 fa_b">
-                      <span class="text">近隣の住民に知られずに、ゴミを処分したい。…</span>
+                      <span class="text">これを機に、墓じまいや海洋散骨を考えたい</span>
                     </li>
                     <li class="mb20 fa_b">
-                      <span class="text">長年故人が住んでいた家をキレイにしたい。…</span>
+                      <span class="text">遺族の代わりに、老人ホームの部屋の片付けを依頼したい</span>
                     </li>
                 </ul>
             </div>

@@ -14,10 +14,10 @@
 <main>
 <div id="body">
 	<div id="page_title">
-		<div class="img_back"><img src="/common/image/contents/contact/top.jpg" alt="お問い合わせ・お見積もり"></div>
+		<div class="img_back"><img src="/common/image/contents/contact/top.jpg" alt="お問い合わせ・お見積り"></div>
 		<div class="page_title_wrap">
 			<div class="center">
-				<h2><span class="main">お問い合わせ・お見積もり</span></h2>
+				<h2><span class="main">お問い合わせ・お見積り</span></h2>
 			</div>
 		</div>
 	</div>
@@ -34,7 +34,7 @@
 						</p>
 					</div>
 				</div>
-				<h2 class="hl_2 mb30"><span>お問い合わせ・見積もりフォーム</span></h2>
+				<h2 class="hl_2 mb30"><span>お問い合わせ・見積りフォーム</span></h2>
 				<form action="./check.php#form" method="post" enctype="multipart/form-data">
 					<table class="tbl_form mb50">
 						<tbody>
