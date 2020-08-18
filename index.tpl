@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-    <meta charset="utf-8">
-    {include file=$template_meta}
-	<link rel="stylesheet" href="/common/css/import.css">
-	{include file=$template_javascript}
-    <script type="text/javascript" src="/common/js/top.js"></script>
+<meta charset="utf-8">
+{include file=$template_meta}
+<link rel="stylesheet" href="/common/css/import.css">
+{include file=$template_javascript}
+<script type="text/javascript" src="/common/js/top.js"></script>
 </head>
 <body id="news">
 <div id="base">
@@ -19,17 +19,15 @@
 	<section>
 		<div id="top_about">
 			<div class="photo img_back sp_none"><img src="/common/image/contents/top/about_back.jpg" alt="遺品整理について"></div>
-      <div class="photo img_back pc_none"><img src="/common/image/contents/top/about_back_sp.jpg" alt="遺品整理について"></div>
+            <div class="photo img_back pc_none"><img src="/common/image/contents/top/about_back_sp.jpg" alt="遺品整理について"></div>
 			<div class="text">
 				<div class="center">
 					<div class="text_in">
 						<h2 class="c_lgreen"><span>遺品整理</span>について</h2>
 						<p class="mb20">遺品整理とは、家族が亡くなった後に、その故人の持ち物や家屋の中を片付けること。でも、ライクファミリーはそうは思いません。遺品は単なるモノではなく、故人が生きた証です。一緒に過ごした思い出を振り返ったり、ご遺族が心を整理したりするための大切な作業が遺品整理なのです。</p>
-            <!--
 						<div class="button"><a href="/about/" class="_type1 ov">詳しく見る<i class="fas fa-caret-right"></i></a></div>
-            -->
 					</div>
-				</div>　
+				</div>
 			</div>
 		</div>
 	</section>
@@ -37,73 +35,67 @@
 		<div id="top_service">
 			<div class="center wrapper">
 				<h2 class="hl_1">SERVICE<span>サービス案内</span></h2>
-        <div class="row mb30">
+				<div class="row mb30">
 					<div class="col-sm-4 col-xs-6 mb30">
-							<div class="unit height-1 bg_lye">
-								<div class="mb10"><img src="/common/image/contents/top/service1.jpg" alt="遺品整理"></div>
-								<h3 class="fa_b">遺品管理</h3>
-								<p>故人の遺品を一つ一つ確認しながら丁寧に仕分けをし、不用品の片付け、搬出を行います。</p>
-							</div>
+						<div class="unit height-1 bg_lye">
+                            <a href="/service/#service_1" class="ov">
+    							<div class="mb10"><img src="/common/image/contents/top/service1.jpg" alt="遺品整理"></div>
+    							<h3 class="fa_b">遺品管理</h3>
+    							<p>故人の遺品を一つ一つ確認しながら丁寧に仕分けをし、不用品の片付け、搬出を行います。</p>
+                            </a>
+						</div>
 					</div>
 					<div class="col-sm-4 col-xs-6 mb30">
-							<div class="unit height-1 bg_lye">
-								<div class="mb10"><img src="/common/image/contents/top/service2.jpg" alt="生前整理"></div>
-								<h3 class="fa_b">生前整理</h3>
-								<p>不用品の仕分けや片付けなど、一人では難しい断捨離をお手伝いし、終活をサポートします。</p>
-							</div>
+						<div class="unit height-1 bg_lye">
+                            <a href="/service/#service_1" class="ov">
+    							<div class="mb10"><img src="/common/image/contents/top/service2.jpg" alt="生前整理"></div>
+    							<h3 class="fa_b">生前整理</h3>
+    							<p>不用品の仕分けや片付けなど、一人では難しい断捨離をお手伝いし、終活をサポートします。</p>
+                            </a>
+						</div>
 					</div>
 					<div class="col-sm-4 col-xs-6 mb30">
-							<div class="unit height-1 bg_lye">
-								<div class="mb10"><img src="/common/image/contents/top/service3.jpg" alt="特殊清掃"></div>
-								<h3 class="fa_b">特殊清掃</h3>
-								<p>さまざまな事情で必要となった特殊な環境下での片付けや不用品処分、清掃作業を請け負います。</p>
-            </div>
+						<div class="unit height-1 bg_lye">
+                            <a href="/service/#service_2" class="ov">
+    							<div class="mb10"><img src="/common/image/contents/top/service3.jpg" alt="特殊清掃"></div>
+    							<h3 class="fa_b">特殊清掃</h3>
+    							<p>さまざまな事情で必要となった特殊な環境下での片付けや不用品処分、清掃作業を請け負います。</p>
+                            </a>
+                        </div>
 					</div>
 					<div class="col-sm-4 col-xs-6 mb30">
-							<div class="unit height-1 bg_lye">
-								<div class="mb10"><img src="/common/image/contents/top/service4.jpg" alt="室内清掃"></div>
-								<h3 class="fa_b">ハウスクリーニング</h3>
-								<p>キッチン、浴室、リビング、家全体など、ご要望に応じてお掃除のプロがきれいに仕上げます。</p>
-							</div>
+						<div class="unit height-1 bg_lye">
+                            <a href="/service/#service_3" class="ov">
+    							<div class="mb10"><img src="/common/image/contents/top/service4.jpg" alt="室内清掃"></div>
+    							<h3 class="fa_b">ハウスクリーニング</h3>
+    							<p>キッチン、浴室、リビング、家全体など、ご要望に応じてお掃除のプロがきれいに仕上げます。</p>
+                            </a>
+						</div>
 					</div>
 					<div class="col-sm-4 col-xs-6 mb30">
-							<div class="unit height-1 bg_lye">
-								<div class="mb10"><img src="/common/image/contents/top/service5.jpg" alt="不用品片付け"></div>
-								<h3 class="fa_b">不用品回収</h3>
-								<p>引越しや部屋の模様替え、断捨離などで処分が必要になった家具や家電、不用品を回収します。</p>
-							</div>
+						<div class="unit height-1 bg_lye">
+                            <a href="/service/#service_4" class="ov">
+    							<div class="mb10"><img src="/common/image/contents/top/service5.jpg" alt="不用品片付け"></div>
+    							<h3 class="fa_b">不用品回収</h3>
+    							<p>引越しや部屋の模様替え、断捨離などで処分が必要になった家具や家電、不用品を回収します。</p>
+                            </a>
+						</div>
 					</div>
 					<div class="col-sm-4 col-xs-6 mb30">
-							<div class="unit height-1 bg_lye">
-								<div class="mb10"><img src="/common/image/contents/top/service6.jpg" alt="空家整理"></div>
-								<h3 class="fa_b">空家管理</h3>
-								<p>住まなくなった住宅の劣化を防ぐため、ご要望に応じて定期的に訪問し、保守管理を行います。</p>
-            </div>
+					    <div class="unit height-1 bg_lye">
+                            <a href="/service/#service_5" class="ov">
+    							<div class="mb10"><img src="/common/image/contents/top/service6.jpg" alt="空家整理"></div>
+    							<h3 class="fa_b">空家管理</h3>
+    							<p>住まなくなった住宅の劣化を防ぐため、ご要望に応じて定期的に訪問し、保守管理を行います。</p>
+                            </a>
+                        </div>
 					</div>
 				</div>
-        <!--
-				<div class="button"><a href="/about/" class="_type1 ov">サービス一覧へ<i class="fas fa-caret-right"></i></a></div>
-      -->
+				<div class="button"><a href="/service/" class="_type1 ov">サービス一覧へ<i class="fas fa-caret-right"></i></a></div>
 			</div>
 		</div>
 	</section>
-	<section>
-		<div id="top_advice">
-			<div class="center wrapper">
-				<p class="person"><img src="/common/image/contents/top/adviser.png" alt="その他のお悩みもご相談ください！"></p>
-				<div class="balloon center2">
-					<h3>その他のお悩みも<br class="visible-only">ご相談ください！</h3>
-					<p class="pos_ac mb20">遺品整理・生前整理以外のお困りごとも当社が解決いたします</p>
-					<div class="row mini cat">
-						<div class="col-sm-3 col-xs-6"><p class="pos_ac">不用品買取</p></div>
-						<div class="col-sm-3 col-xs-6"><p class="pos_ac">空家の解体</p></div>
-						<div class="col-sm-3 col-xs-6"><p class="pos_ac">リフォーム</p></div>
-						<div class="col-sm-3 col-xs-6"><p class="pos_ac">遺品供養</p></div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
+	{include file=$template_contact}
 	<section>
 		<div id="top_reason"  class="bg_lye">
 			<div class="center wrapper">
@@ -137,13 +129,13 @@
 								<p>ビフォーアフターを撮影した写真を添えて、作業完了報告書を提出いたします。ご希望があれば、別途料金5,000円（税別）にて、作業風景の動画撮影も可能です。</p>
 							</div>
 						</div>
-            <div class="col-xs-6 mb30">
-              <div class="reason height-1">
-                <div class="img"><img src="/common/image/contents/top/reason6.jpg" alt="こまめな連絡"></div>
-                <h3>こまめな連絡</h3>
-                <p>「これは処分してはいけない必要なものでは？」と気づいた遺品が見つかったときなど、すぐにご依頼主様にご連絡いたします。</p>
-              </div>
-            </div>
+                        <div class="col-xs-6 mb30">
+                            <div class="reason height-1">
+                                <div class="img"><img src="/common/image/contents/top/reason6.jpg" alt="こまめな連絡"></div>
+                                <h3>こまめな連絡</h3>
+                                <p>「これは処分してはいけない必要なものでは？」と気づいた遺品が見つかったときなど、すぐにご依頼主様にご連絡いたします。</p>
+                            </div>
+                        </div>
 						<div class="col-xs-6 mb30">
 							<div class="reason height-1">
 								<div class="img"><img src="/common/image/contents/top/reason5.jpg" alt="アフターフォローの充実"></div>
@@ -411,9 +403,7 @@
                         </div>
                     </div>
                 </div>
-      <!--
 				<div class="button mb50"><a href="/price/" class="_type1 ov">料金一覧へ<i class="fas fa-caret-right"></i></a></div>
-      -->
 				<h2 class="hl_3 mb20"><span>各種お支払い方法に対応しています！</span></h2>
 				<div class="pay_way">
 					<p class="pos_ac"><img src="/common/image/foot/pay.jpg" alt="各種お支払い方法"></p>
@@ -453,7 +443,7 @@
 							<img src="/common/image/contents/top/flow3.jpg" alt="お申込み">
 							<p class="maru"><span>3</span></p>
 						</div>
-						<p class="pos_ac fw_bold title">作業開始</p>
+						<p class="pos_ac fw_bold title">お申込み</p>
 					</div>
 					<div class="arrow">
 						<i class="fas fa-caret-right sp_none"></i>
@@ -466,16 +456,12 @@
 						</div>
 						<p class="pos_ac fw_bold title">作業完了報告</p>
 					</div>
-
 				</div>
-        <!--
-				<div class="button mb50"><a href="/way/" class="_type1 ov">詳しく見る<i class="fas fa-caret-right"></i></a></div>
-      -->
+				<div class="button mb50"><a href="/flow/" class="_type1 ov">詳しく見る<i class="fas fa-caret-right"></i></a></div>
 			</div>
 		</div>
 	</section>
-<!--
-	<section>
+{*	<section>
 		<div id="top_voice" class="bg_lye">
 			<div class="center wrapper">
 				<h2 class="hl_1">VOICE<span>お客様の声</span></h2>
@@ -537,8 +523,7 @@
                 </div>
             </div>
         </div>
-	</section>
--->
+	</section>*}
 	<section>
 		<div id="top_area">
 			<div class="center wrapper">
@@ -574,8 +559,7 @@
             </div>
 		</div>
 	</section>
-<!--
-	<section>
+    {*<section>
 		<div id="top_works" class="bg_lor">
 			<div class="center wrapper">
 				<h2 class="hl_1">WORKS<span>作業実績</span></h2>
@@ -596,9 +580,7 @@
 				<div class="button mb50"><a href="/work/" class="_type1 ov">一覧を見る<i class="fas fa-caret-right"></i></a></div>
 			</div>
 		</div>
-	</section>
--->
-<!--
+	</section>*}
 	<section>
 		<div id="top_news">
 			<div class="center wrapper">
@@ -614,17 +596,8 @@
 						<dd class="pos_ac">お知らせは準備中です。</dd>
 					</dl>
 					{/foreach}
-                    {*<dl>
-						<dt><span class="cat">お知らせ</span><span>2020.07.01</span></dt>
-						<dd><a href="###">ここにお知らせのタイトルがはいります。この文章はダミーです。</a></dd>
-					</dl>
-                    <dl>
-						<dt><span class="cat">お知らせ</span><span>2020.07.01</span></dt>
-						<dd><a href="###">ここにお知らせのタイトルがはいります。この文章はダミーです。</a></dd>
-					</dl>*}
                 </div>
 				<div class="button mb50"><a href="/news/" class="_type1 ov">一覧を見る<i class="fas fa-caret-right"></i></a></div>
--->
 			</div>
 		</div>
 	</section>

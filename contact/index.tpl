@@ -10,7 +10,7 @@
 </head>
 <body id="contact">
 <div id="base">
-{include file=$template_header_}
+{include file=$template_header}
 <main>
 <div id="body">
 	<div id="page_title">
@@ -218,7 +218,7 @@
 	</section>
 </div>
 </main>
-{include file=$template_footer_}
+{include file=$template_footer}
 </div>
 </body>
 </html>

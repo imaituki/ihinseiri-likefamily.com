@@ -27,7 +27,7 @@
 	#top_service .unit p{color: #333333; margin-bottom: 10px;}
 	#top_service a{display: block; text-decoration: none;}
 	#top_service h3{font-weight: bold; font-size: 1.5em; text-align: center; color: #D87F54; margin-bottom: 10px;}
-	/*#top_service h3:before { content: "\f0a9"; color: #D87F54; padding: 0 5px 0 0;}*/
+	#top_service h3:before { content: "\f0a9"; color: #D87F54; padding: 0 5px 0 0;}
 	@media (min-width: 768px){
 		#top_service .unit p{padding: 0 25px;}
 	}
@@ -283,6 +283,8 @@
 /*===================================================================
 	#service
 ===================================================================*/
+
+#service #top_service h3:before{content: ""; padding: 0;}
 #service #unit1 .hl_3 {font-size: 2em;}
 #service #unit1 .hl_3 span{border-left: none; padding-left: 0; font-size: 1.75em;}
 #service #unit1 .unit{border: 2px solid #F8B493; border-radius: 5px; }
@@ -299,7 +301,7 @@
 }
 @media (max-width: 575px){
 	#service #unit1 .hl_3 {font-size: 1.5em;}
-	#service #unit1 .unit .pos_re img{opacity: 0.9; }
+	#service #unit1 .unit .pos_re img{ opacity: 0.9;  min-height: 300px; width: 100%; object-fit: cover;}
 	#service #unit1 h3{    font-size: 1.5em;}
 	#service #unit1 .pos_ab{ position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); -webkit-transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); min-width: 270px;}
 	#service #unit1 .unit .text_unit{padding: 30px 15px;}
@@ -310,7 +312,7 @@
 
 @media (max-width: 575px){
 	#service #unit2 h3 span{    text-shadow: #FFF 1px 1px 10px, #fff -1px 1px 10px, #fff -1px 1px 10px, #fff -1px 1px 10px}
-	#service #unit2 h3{ font-size: 1.25em; background: url(/common/image/contents/service/illust.png) no-repeat 25px center / 90px auto;}
+	#service #unit2 h3{letter-spacing: -1px;  font-size: 1.25em; background: url(/common/image/contents/service/illust.png) no-repeat 25px center / 90px auto;}
 }
 
 /*===================================================================
@@ -366,12 +368,11 @@
 #faq .faq_box { cursor:pointer; margin-bottom:30px;  border: 1px solid #F5D4C4;}
 #faq .faq_box dt { position:relative; font-weight:bold; font-size:1.15em; color:#D86026; padding: 10px 25px; background: #FFFAF0;}
 #faq .faq_box dt:after { content:"\f107"; font-family:"Font Awesome 5 Free"; -webkit-font-smoothing:antialiased; text-rendering:auto; font-variant:normal; font-weight:bold; position:absolute; right:25px; }
-#faq .faq_box dl.open dt:after { content:"\f106";  right:25px; }
+#faq .faq_box dl.open dt:after { content:"\f106"; }
 #faq .faq_box dd { display:none; padding:25px; background: #fff;}
 	@media (max-width: 575px){
 		#faq .faq_box dt:after { right:0; top: 50%; transform: translate(-50%, -50%); -webkit-transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); }
 		#faq .faq_box dt {padding: 10px 30px 10px 10px;}
-		#faq .faq_box dl.open dt:after { content:"\f056";  right:0; }
 	}
 
 

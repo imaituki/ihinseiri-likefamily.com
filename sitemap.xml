@@ -6,5 +6,41 @@
   <loc>https://ihinseiri-likefamily.com/</loc>
   <priority>1.0</priority>
 </url>
+<url>
+  <loc>https://ihinseiri-likefamily.com/news/</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://ihinseiri-likefamily.com/contact/</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://ihinseiri-likefamily.com/about/</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://ihinseiri-likefamily.com/flow/</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://ihinseiri-likefamily.com/service/</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://ihinseiri-likefamily.com/price/</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://ihinseiri-likefamily.com/faq/</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://ihinseiri-likefamily.com/news/detail.php?id=2</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://ihinseiri-likefamily.com/privacy/</loc>
+  <priority>0.8</priority>
+</url>
 
 </urlset>

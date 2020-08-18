@@ -9,7 +9,7 @@
 <body id="service">
 <div id="base">
 <div id="base">
-{include file=$template_header_}
+{include file=$template_header}
 <main>
 <div id="body">
 	<div id="page_title">
@@ -24,7 +24,7 @@
 		<div id="unit1" class="wrapper-t mb50">
 			<div class="center">
 				<h2 class="hl_3 pos_ac fw_bold mb40">遺品整理のライクファミリーがご提供する<br class="pc_none">充実なサービス</h2>
-                <div class="unit">
+                <div class="unit" id="service_1">
                     <div class="pos_ac pos_re">
 						<img src="/common/image/contents/service/service_back.jpg" alt="遺品整理・生前整理" class="hidden-only">
                         <img src="/common/image/contents/service/service_back_sp.jpg" alt="遺品整理・生前整理" class="visible-only">
@@ -53,31 +53,31 @@
 		</div>
         <div id="top_service" class="center">
 			<div class="row mb30">
-				<div class="col-xs-6 mb30">
+				<div class="col-xs-6 mb30" id="service_2">
 					<div class="unit height-1 bg_lye">
 						<div class="mb10"><img src="/common/image/contents/top/service3.jpg" alt="特殊清掃"></div>
-						<h3 class="fa_b">特殊清掃</h3>
+						<h3>特殊清掃</h3>
 						<p>さまざまな事情で必要となった特殊な環境下での片付けや不用品処分、清掃作業を請け負います。</p>
                     </div>
 				</div>
-				<div class="col-xs-6 mb30">
+				<div class="col-xs-6 mb30" id="service_3">
 					<div class="unit height-1 bg_lye">
 						<div class="mb10"><img src="/common/image/contents/top/service4.jpg" alt="室内清掃"></div>
-						<h3 class="fa_b">ハウスクリーニング</h3>
+						<h3>ハウスクリーニング</h3>
 						<p>キッチン、浴室、リビング、家全体など、ご要望に応じてお掃除のプロがきれいに仕上げます。</p>
 					</div>
 				</div>
-				<div class="col-xs-6 mb30">
+				<div class="col-xs-6 mb30" id="service_4">
 					<div class="unit height-1 bg_lye">
 						<div class="mb10"><img src="/common/image/contents/top/service5.jpg" alt="不用品片付け"></div>
-						<h3 class="fa_b">不用品回収</h3>
+						<h3>不用品回収</h3>
 						<p>引越しや部屋の模様替え、断捨離などで処分が必要になった家具や家電、不用品を回収します。</p>
 					</div>
 				</div>
-				<div class="col-sm-6 col-xs-6 mb30">
+				<div class="col-sm-6 col-xs-6 mb30" id="service_5">
 					<div class="unit height-1 bg_lye">
 						<div class="mb10"><img src="/common/image/contents/top/service6.jpg" alt="空家整理"></div>
-						<h3 class="fa_b">空家管理</h3>
+						<h3>空家管理</h3>
 						<p>住まなくなった住宅の劣化を防ぐため、ご要望に応じて定期的に訪問し、保守管理を行います</p>
                     </div>
 				</div>
@@ -128,7 +128,7 @@
     <div class="wrapper-b"></div>
 </div>
 </main>
-{include file=$template_footer_}
+{include file=$template_footer}
 </div>
 </body>
 </html>
